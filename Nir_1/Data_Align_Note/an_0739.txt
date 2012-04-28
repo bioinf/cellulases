@@ -1,0 +1,49 @@
+Hydrolytic Activity
+[C X S M A L]
+[1 0 0 0 0 0 ]
+
+
+########################################
+# Program: matcher
+# Rundate: Sat 28 Apr 2012 00:22:20
+# Commandline: matcher
+#    -auto
+#    -stdout
+#    -asequence emboss_matcher-I20120428-002219-0629-94718784-pg.asequence
+#    -bsequence emboss_matcher-I20120428-002219-0629-94718784-pg.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 14
+#    -gapextend 4
+#    -alternatives 1
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GH10_07_0_04883
+# 2: GH5_09_0_04975
+# Matrix: EBLOSUM62
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 28
+# Identity:       9/28 (32.1%)
+# Similarity:    14/28 (50.0%)
+# Gaps:           1/28 ( 3.6%)
+# Score: 35
+# 
+#
+#=======================================
+
+GH10_07_0_048    310 RQYLDIILEEPNADTYLIWG-VSDKWSW    336
+                     |:.:..:|.||.....|:|. |.|:..|
+GH5_09_0_0497    153 RRVMMELLNEPAGSDSLVWDKVKDELFW    180
+
+
+#---------------------------------------
+#---------------------------------------

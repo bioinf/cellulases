@@ -1,0 +1,46 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+GH5_06_3932955_213080      ---------------------MAYKG-------------------FPKAM
+GH5_19_694713_55880        MKRLNTIAALSLMVMGIMTGLTACNGNDPDDNTPQLTITVRSCSITEGAE
+                                                 * :*                      * 
+
+GH5_06_3932955_213080      WIAGAVLLAIMVAEAIFVIS-------KGIEKTATVADETAAEFVVGP--
+GH5_19_694713_55880        YAASELKEVTISYSNVVVISSSANITLNDVPCTAKSGATTMTKVVITLPA
+                           : *. :  . :  . :.***       :.:  **. .  * ::.*:    
+
+GH5_06_3932955_213080      --------LHVEGTTLLDANGQPVVMRGISIGWHNLWPRFYNSQAVVNLH
+GH5_19_694713_55880        LEEGKTYTLKVPEGAIVSKDNPSISAPAYSVTFTTAKP-IKNDATALTRR
+                                   *:*   :::. :. .:   . *: : .  * : *. :.:. :
+
+GH5_06_3932955_213080      DSWGCNL---FRAAIGAD----DLGELLNGTTYHPGYISDPQGALEKLYA
+GH5_19_694713_55880        LGWGWNLGNHFDTNSGEDGSPSQWGYWDNAKPTQALYTNLKSAGVSTVRI
+                            .** **   * :  * *    : *   *... :. * .  ...:..:  
+
+GH5_06_3932955_213080      VVDG-------------------------AIACGAYVIVDWHSHVLHL--
+GH5_19_694713_55880        CVTWGNYQKSAPWTIDAKYIAEVRQNVEWAEAAGLNVILNMHHDEYWLKI
+                            *                           * *.*  **:: * .   *  
+
+GH5_06_3932955_213080      --------------EEATEFFTAVANRYKG-VPNVIYELFNEP-------
+GH5_19_694713_55880        KEAAADATVNDAIKERISATWTQIAEAFKDKGDFLLFESFNEVQDGGWGW
+                                         *. :  :* :*: :*.    :::* ***        
+
+GH5_06_3932955_213080      ------VGDSWADLKAYAESLIATITSIDKSHPLILMGCPRWDQAIELPA
+GH5_19_694713_55880        GDNLHDGGKQYQTLNEWNQLAVDAIRATGDNNATRWIGIPGYATNPKFVL
+                                  *..:  *: : :  : :* : ...:.   :* * :    ::  
+
+GH5_06_3932955_213080      AD----PITSYDNVMYTMHFYAGTHKKWLRDATDS---------------
+GH5_19_694713_55880        ENGFVLPTDAAGRLMVSVHYYDPSTFTLTPENSDGKSEWGHTAAAGKYQE
+                            :    *  : ..:* ::*:*  :  .   : :*.               
+
+GH5_06_3932955_213080      -----------------AMAAGLPVFISECAAMEASGDGP-LDMESWKEW
+GH5_19_694713_55880        GSNEEHVVETFQKLQEKYIANNIPVYIGEYGCVMHTTDRANLFRNYYLEY
+                                             :* .:**:*.* ..:  : * . *  : : *:
+
+GH5_06_3932955_213080      SDWAAAR-GLNIVLWSFSDKDESCSMLTPEATSEGPWPDEVIKPWGVIAR
+GH5_19_694713_55880        VCRAAHTYQIPAIIWDNNVSGSGNEHHAYFNHSNGAYLNKAESLVQTMIR
+                              **    :  ::*. . .... .  :    *:*.: ::. .   .: *
+
+GH5_06_3932955_213080      DFVK----------------
+GH5_19_694713_55880        ATTSDDAAYTLESVYNRAPK
+                             ..                

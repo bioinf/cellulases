@@ -1,0 +1,86 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+GH5_03_2463295_41230      ------------------------------------------------------------
+GH5_05_0_14031            ------------------------------------------------------------
+GH9_11_0_01001            ------------------------------------------------------------
+GH9_18_4196623_64310      MKKIVALLLSVSMIAGIAAGCKKSNSKDESTTETSSTGDSSIEVTSSETEASASEEPEGT
+                                                                                      
+
+GH5_03_2463295_41230      ------------------------------------------------------------
+GH5_05_0_14031            ------------------------------------------------------------
+GH9_11_0_01001            ------------------------------------------------------------
+GH9_18_4196623_64310      KPADDPDAGTRATTEIADGNYMMDEAFTSPDDFKWLTYTESGGNWEVVCENGEMVAKINS
+                                                                                      
+
+GH5_03_2463295_41230      ------------------------------------------------------------
+GH5_05_0_14031            ------------------------------------------------------------
+GH9_11_0_01001            ------------------------------------------------------------
+GH9_18_4196623_64310      TGSLEYACQLYYDGVALLENCKYQFDFDIKSDKARTFEWRFQLNGGDYHAYAGEKNVEAG
+                                                                                      
+
+GH5_03_2463295_41230      ------------------------------------MKRITSIAITALIFLMAVSCSSGG
+GH5_05_0_14031            ---------------------------------STFMRKSTFLSILAVLVLTVMQSCSAD
+GH9_11_0_01001            -----------------------------------RNMKIRHLLIMVFAWCGMSSMQAKP
+GH9_18_4196623_64310      PSWKHVSVEFVMQEKGDRAPRFCFNLGNDGSITEAHNVYIDNVTLKIVDCSTAVKIDNGP
+                                                                    : :  .      .     
+
+GH5_03_2463295_41230      ---WVEVKGNKFIDPKGNELVFRGLCFSDPVKLVREG---------------QWN--ERY
+GH5_05_0_14031            NR-WVKVNGNKFIGPDGKEIVFRGLCFSDPVKLVRER---------------QWN--ERY
+GH9_11_0_01001            IV-EIRLNQVGYYPDEEKVVVFEGIKAKEKITVTDEQGNVVLQPKVIRQAISPWSKKQRF
+GH9_18_4196623_64310      AANPVSLNQTGYQPKDPKVFFIDGTMSTTFKIYNAKTYDVVYEGEVQGPIKSVGTGSEIT
+                              : ::   :   . : ..: *   .       :                  .  :  
+
+GH5_03_2463295_41230      FAEAADWGAN------------VVRFAVHPANLNSLGWD--ETFQAMDQGIEWAKKHG--
+GH5_05_0_14031            FAEAADWGAN------------VVRFAVHPQNINAMGWD--PTFQAMDQGIEWAKQHG--
+GH9_11_0_01001            IVDVSELKTPGKYTIAVK--GAERQFVVNPAALRDISHASLKFFYLMRTGIPIEKEYAGE
+GH9_18_4196623_64310      YGDFTALEEPGTYFVHTSSSGKSYNFTIADDVYNDALKASILMLYTQRCGCEVKADIG--
+                            : :                   .*.:     .         :     *     . .  
+
+GH5_03_2463295_41230      ------------------------------------------LYVIMDWHSIGNLKDELY
+GH5_05_0_14031            ------------------------------------------MYVIMDWHSIGNLKEERY
+GH9_11_0_01001            YARPVGHPDLHVLIHPSAASQGRPAGSVISSPLGWYDAGDYNKYVVNSSFSIGLMMLVYE
+GH9_18_4196623_64310      ----EEYADFAHPICHTGEALIYGTDKKIDVSGGWHDAGDYGRYVVPGAKTIADLFMTYQ
+                                                                     **: .  :*. :     
+
+GH5_03_2463295_41230      TNDMYNTTKAETFKFWRTVAQRYKDEPAVALYELYNEP----------TVTAPGVGSCTW
+GH5_05_0_14031            TSAMYNTTKAETFRFWRTVAQRYKDEPTVALYELFNEP----------TVTG--TGHCTW
+GH9_11_0_01001            QNKAYFHSLNLNIPESENATADFLDEMMFNLRWLLTMQDPEDGGVYHKLTTPNFEGFVKP
+GH9_18_4196623_64310      DT--GYAADDLGIPESGNGVPDILDEARYELEWMFKMQAE-NGGVYHKVTCDNFPATVMA
+                           .     :    :    . .    **    *  : .             .     .    
+
+GH5_03_2463295_41230      TEWKELQEQIIDTVRTYN------PHAVCLCAGFNWAYDLTPVATEPIARPNVAY---VS
+GH5_05_0_14031            TEWKELQEQIIDTIRAYN------PKAVCLCAGFNWAYDLTPVASEPIARENVAY---VS
+GH9_11_0_01001            TECKQPRYVVAKSVTATYDFAAVMAQAARLLKGNRDYVEFSYQATEAAKRAYEWA---VN
+GH9_18_4196623_64310      DEETNQLLVLPISTTATGDFAAVMAKAYVVYKDIDAEFALKCRDAAVKAYAYMDANAAAD
+                           * .:    :  :  :        .:*  :  .      :.   :             ..
+
+GH5_03_2463295_41230      HPYPMKRDQPWEEQWEQDFG-------------YVADTWPVICTEIGFCLADEPGAHIPV
+GH5_05_0_14031            HPYPMKRSEPWEEQWEKDFG-------------YVADTYPVICTEIGFCLEDEPGAHVPV
+GH9_11_0_01001            HPQVFYRQGSMNQQYQPAVNTGEYGDGRANDEQFWAATEMYRLTNDNKYLQDAKNLKPNR
+GH9_18_4196623_64310      TTGFLNPSDVFTGEYPDAVN---------KDEFFWAAVELYVATGESTYLNKAKELYSAE
+                           .  :  .     ::   ..             : * .     *  .  * .        
+
+GH5_03_2463295_41230      MST-------EVYG-----------------------EHITQYFEKKGISFTVWCFDTSW
+GH5_05_0_14031            MST-------DVYG-----------------------EHITKYFEDKGISFTVWCFDTSW
+GH9_11_0_01001            FTC-------PTWGSVAGLGVFSWINAGESEMQSEMLQQLKDYCEQLIARVPTSSFQAPY
+GH9_18_4196623_64310      MELGLGWIEMALYGVHSYLRTETSFEKDAEFTELLKTRVLDEATKSMELGKKDGYYNAMC
+                          :           :*                       . : .  :.         :::  
+
+GH5_03_2463295_41230      AP--------------------MLISDWDFTPTT--QGRFFKA---YLQGKAH-------
+GH5_05_0_14031            AP--------------------MLISDWDFTPTT--QGRFFKA---YLQSKK--------
+GH9_11_0_01001            GDRKEEFGWGCLAENCCVPGVALLYADRYIAPDR--YRGYALQNIDYLLGRNATGYCYVT
+GH9_18_4196623_64310      ENYPWG-------SNLTVSNNGILYNLAYLLSDNKEFKDMCSFQVDYIMGMNVCGYSYLT
+                                                :*     : .              *: .          
+
+GH5_03_2463295_41230      ------------------------------------------------------------
+GH5_05_0_14031            ------------------------------------------------------------
+GH9_11_0_01001            GFGQKSPMHPHHRISSSDGIEKPFPGMLVGGPNPMQQDKVAGNLVYPSSFPDESYLDEEP
+GH9_18_4196623_64310      GFGTNAAEHPHHRPSQAKG--HAVPGMVVGGPNGEPADPFAISALDG-KAPARCYVDNDT
+                                                                                      
+
+GH5_03_2463295_41230      --------------------------------------------------
+GH5_05_0_14031            --------------------------------------------------
+GH9_11_0_01001            SYASNEIAINWNASLVALLCWMDALKSQTIWXLLLVNYTQVQCGWYYLNG
+GH9_18_4196623_64310      AYSINEVAIYWNSPFIYILAAKAXXX---XGRVLFSKKVEKRKSF-----
+                                                                            

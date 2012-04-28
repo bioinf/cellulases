@@ -1,0 +1,80 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+GH5_03_2463295_41230       ---MKRITSIAITALIFLMAVSCSSGG--WVEVKGNKFIDPKGNELVFRG
+GH5_05_0_14031             STFMRKSTFLSILAVLVLTVMQSCSADNRWVKVNGNKFIGPDGKEIVFRG
+GH5_07_3004993_158220      ----------------MARVLEGYLHG---VNLGG--------------W
+GH9_11_0_01001             --RNMKIRHLLIMVFAWCGMSSMQAKPIVEIRLNQVGYYPDEEKVVVFEG
+                                                .        :.:                 
+
+GH5_03_2463295_41230       LCFSDPVKLVREG-----------------QWNERYFAEAADWGAN----
+GH5_05_0_14031             LCFSDPVKLVRER-----------------QWNERYFAEAADWGAN----
+GH5_07_3004993_158220      LSQCDHTKKRYDT-----------------FITEADFATIRSWGMD----
+GH9_11_0_01001             IKAKEKITVTDEQGNVVLQPKVIRQAISPWSKKQRFIVDVSELKTPGKYT
+                           :   :  .   :                    .:  :.   .        
+
+GH5_03_2463295_41230       ------VVRFAVHPANLNSLG---WDETFQAMDQGIEWAKKHG-------
+GH5_05_0_14031             ------VVRFAVHPQNINAMG---WDPTFQAMDQGIEWAKQHG-------
+GH5_07_3004993_158220      ------HVRVPVDYELVEDRDGNYIEEGFGYISRAIEWAKKNG-------
+GH9_11_0_01001             IAVKGAERQFVVNPAALRDIS-HASLKFFYLMRTGIPIEKEYAGEYARPV
+                                   :. *.   :.  .       *  :  .*   *: .       
+
+GH5_03_2463295_41230       ----LYVIMDWHSIGN-------LKDEL--YTNDMYN--TTKAETFK---
+GH5_05_0_14031             ----MYVIMDWHSIGN-------LKEER--YTSAMYN--TTKAETFR---
+GH5_07_3004993_158220      ----LHMILDLHKTFG-------YSFDLGYGESGFFDNEAYQERFYR---
+GH9_11_0_01001             GHPDLHVLIHPSAASQGRPAGSVISSPLGWYDAGDYNKYVVNSSFSIGLM
+                               :::::.              .          ::  . :        
+
+GH5_03_2463295_41230       ---------FWRTVAQRYKDE-------PAVALYELYNEPTVTAPGVGSC
+GH5_05_0_14031             ---------FWRTVAQRYKDE-------PTVALYELFNEPTVTG--TGHC
+GH5_07_3004993_158220      ---------LWEEFARRYGSE-------VENVVFELLNEVTAKEY-----
+GH9_11_0_01001             MLVYEQNKAYFHSLNLNIPESENATADFLDEMMFNLRWLLTMQDPEDGGV
+                                     :. .  .  ..           :::*    *         
+
+GH5_03_2463295_41230       TWTEWKELQEQIIDTVRTYNP-HAVCLCAGFNWAYDLTPVATEPIARPNV
+GH5_05_0_14031             TWTEWKELQEQIIDTIRAYNP-KAVCLCAGFNWAYDLTPVASEPIARENV
+GH5_07_3004993_158220      -SDTWNRVSTTCIGRIRKIAP-DMRIIIGGYYNNSIEALVDLAAPVDDKI
+GH9_11_0_01001             YHKLTTPNFEGFVKPTECKQPRYVVAKSVTATYDFAAVMAQAARLLKGNR
+                                .      :   .   *                . .        : 
+
+GH5_03_2463295_41230       AYVSHPYP----MKRDQPWEEQWEQDFGY---------------------
+GH5_05_0_14031             AYVSHPYP----MKRSEPWEEQWEKDFGY---------------------
+GH5_07_3004993_158220      IYTFHCYEPLIFTHQGAPWVDGMDTSFRMP--------------------
+GH9_11_0_01001             DYVEFSYQATEAAKRAYEWAVNHPQVFYRQGSMNQQYQPAVNTGEYGDGR
+                            *. . *      ::   *       *                       
+
+GH5_03_2463295_41230       ------VADTWPVICTEIGFCLADEPGAHIPVMSTEVYG-----------
+GH5_05_0_14031             ------VADTYPVICTEIGFCLEDEPGAHVPVMSTDVYG-----------
+GH5_07_3004993_158220      ------FASTYRTYSKNSSTQVDAFKNLELATFKAFDPE-----------
+GH9_11_0_01001             ANDEQFWAATEMYRLTNDNKYLQDAKNLKPNRFTCPTWGSVAGLGVFSWI
+                                  * *     .: .  :    . .   :.                
+
+GH5_03_2463295_41230       ------------EHITQYFEKKGISFTVWCFDTSW---------------
+GH5_05_0_14031             ------------EHITKYFEDKGISFTVWCFDTSW---------------
+GH5_07_3004993_158220      ------------QILGEEYFERMLAEAVRVAEERN---------------
+GH9_11_0_01001             NAGESEMQSEMLQQLKDYCEQLIARVPTSSFQAPYGDRKEEFGWGCLAEN
+                                       : : .   .     ..   :                  
+
+GH5_03_2463295_41230       -----APMLISDWDFTPTTQGR----FFKAYLQGKAH-------------
+GH5_05_0_14031             -----APMLISDWDFTPTTQGR----FFKAYLQSKK--------------
+GH5_07_3004993_158220      -----VALYCGEFGVIDRAQAKDVLAWYQTFIKVMDR-----HGIGRAAW
+GH9_11_0_01001             CCVPGVALLYADRYIAPDRYRGYALQNIDYLLGRNATGYCYVTGFGQKSP
+                                ..:  .:  .             .  :                  
+
+GH5_03_2463295_41230       --------------------------------------------------
+GH5_05_0_14031             --------------------------------------------------
+GH5_07_3004993_158220      SYKQMDFGLVDPYVDPVREELLKLI-------------------------
+GH9_11_0_01001             MHPHHRISSSDGIEKPFPGMLVGGPNPMQQDKVAGNLVYPSSFPDESYLD
+                                                                             
+
+GH5_03_2463295_41230       --------------------------------------------------
+GH5_05_0_14031             --------------------------------------------------
+GH5_07_3004993_158220      --------------------------------------------------
+GH9_11_0_01001             EEPSYASNEIAINWNASLVALLCWMDALKSQTIWXLLLVNYTQVQCGWYY
+                                                                             
+
+GH5_03_2463295_41230       ---
+GH5_05_0_14031             ---
+GH5_07_3004993_158220      ---
+GH9_11_0_01001             LNG
+                              

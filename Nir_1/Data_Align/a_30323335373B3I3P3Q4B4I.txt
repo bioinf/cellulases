@@ -1,0 +1,236 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+GH5_00_3953955             --------------------------------------------------
+GH5_26_457020_01700        -------------------MNARMIFKMVVLTASFLFAGASAYSGGYDLN
+GH5_03_2463295_41230       ----------------------MKRITSIAITALIFLMAVSCSSGG--WV
+GH5_05_0_14031             -------------------STFMRKSTFLSILAVLVLTVMQSCSADNRWV
+GH5_02_3671981_90060       --------------------------------------------------
+GH5_11_1029836_111030      -----------------------MKACIFSIAALMLALTSCNKPADQKAQ
+GH5_07_3004993_158220      --------------------------------------------------
+GH5_18_558318_19410        ----MRFRLPILALALFAFACGEPAEVTPEEIPGPVLVSASPADGTGGIV
+GH5_25_3953955_161040      MNDIMNKLLTALAALAVMVSCGNSDEPKQEESILTVTTKSLSFDYSGGTQ
+GH9_18_4196623_64310       ----------------------MKKIVALLLSVSMIAGIAAGCKKSNSKD
+GH9_11_0_01001             -----------------------RNMKIRHLLIMVFAWCGMSSMQAKPIV
+                                                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_26_457020_01700        EEEMEQRVSPAPNAGYTYPEGSPVYHNGKLSVQGTQMVSECGKPVQLRGM
+GH5_03_2463295_41230       EVKGNK---------FIDPKGNELVFRGLCFSDPVKLVREG---------
+GH5_05_0_14031             KVNGNK---------FIGPDGKEIVFRGLCFSDPVKLVRER---------
+GH5_02_3671981_90060       --------------------------------------------------
+GH5_11_1029836_111030      NTNEET----------KSPYATLSLHNGVNISHWLSQSGDR---------
+GH5_07_3004993_158220      -----------------MARVLEGYLHGVNLGGWLSQCDHT---------
+GH5_18_558318_19410        ESSLPVTFTFDQNIICSQEGQQGVTVDGGAYVSKVSLSGPDLTVVVSGLS
+GH5_25_3953955_161040      TVNVVSSIDPGINCKDSWLTVTKGEYLDKNVQLTIVAATNTTSSARKGNV
+GH9_18_4196623_64310       ESTTETSSTGDSSIEVTSSETEASASEEPEGTKPADDPDAGTRATTEIAD
+GH9_11_0_01001             EIRLNQVG-------YYPDEEKVVVFEGIKAKEKITVTDEQGNVVLQPKV
+                                                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_26_457020_01700        SSHGLAWFPKCYTEASLTALVKDWNIDIFRLAIY----------THEWGG
+GH5_03_2463295_41230       -----QWNERYFAEA------ADWGANVVRFAVH----------PANLNS
+GH5_05_0_14031             -----QWNERYFAEA------ADWGANVVRFAVH----------PQNINA
+GH5_02_3671981_90060       --------------------------------------------------
+GH5_11_1029836_111030      --------GEVRANKIVKKDFDSIAAMGFDFVRL----------AVDEEQ
+GH5_07_3004993_158220      --------KKRYDTFITEADFATIRSWGMDHVRV----------PVDYEL
+GH5_18_558318_19410        RGKHYVVTLPAGTVLGFQKNQKGSEAVTYRFLTK----------EPD-PA
+GH5_25_3953955_161040      SINGDKKTITIEVTQGVLDYPLEVDKTSLSFTYAGGGAAVTASSTSEVTI
+GH9_18_4196623_64310       GNYMMDEAFTSPDDFKWLTYTESGGNWEVVCENGE-----MVAKINSTGS
+GH9_11_0_01001             IRQAISPWSKKQRFIVDVSELKTPGKYTIAVKGAER---QFVVNPAALRD
+                                                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_26_457020_01700        YTTNQWKSKDDYNAYIDNMVDICAKLGIYCI-----------IDWHVLN-
+GH5_03_2463295_41230       LG------WDETFQAMDQGIEWAKKHGLYVI-----------MDWHSIG-
+GH5_05_0_14031             MG------WDPTFQAMDQGIEWAKQHGMYVI-----------MDWHSIG-
+GH5_02_3671981_90060       --------------------------------------------------
+GH5_11_1029836_111030      LYDEQMNRDSSTFALMHNAINWALEDSMNIV-----------VDLHIVRS
+GH5_07_3004993_158220      VEDRDGNYIEEGFGYISRAIEWAKKNGLHMI-----------LDLHKTFG
+GH5_18_558318_19410        PEPGAWESASDAVRNMGAGWNLGNTLDANSG-----------DITHMWIE
+GH5_25_3953955_161040      SGGADWCKATAGKQGEDRKTEITVLAGPNLSGASRSTSFTIKCGAESKTV
+GH9_18_4196623_64310       LEYACQLYYDGVALLENCKYQFDFDIKSDKARTFEWRFQLNGGDYHAYAG
+GH9_11_0_01001             ISHASLKFFYLMRTGIPIEKEYAGEYARPVG------HPDLHVLIHPSAA
+                                                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_26_457020_01700        ----DGSGD------PNYTLDDAIPFWDY---MSAK-HKDD-KHVLYEIC
+GH5_03_2463295_41230       ----NLKDELYTNDMYNTTKAETFKFWRT---VAQR-YKDEPAVALYELY
+GH5_05_0_14031             ----NLKEERYTSAMYNTTKAETFRFWRT---VAQR-YKDEPTVALYELF
+GH5_02_3671981_90060       -------------------------------------------MVAYELM
+GH5_11_1029836_111030      HHFNNENGHPNTLFQDPKEQEKIVNIWKD---LQKDLKQYPNDRLAYELM
+GH5_07_3004993_158220      -YSFDLGYGESGFFDNEAYQERFYRLWEE---FARR-YGSEVENVVFELL
+GH5_18_558318_19410        FNPHPTTADYETAWGQPVTTRALIHMFKE---AGFN--AIRVPVTWYPHI
+GH5_25_3953955_161040      DVTQPALGAIAAAAATALTQDAVYDMFKMGWNLGNQMDANSNGVASETVW
+GH9_18_4196623_64310       EKNVEAGPSWKHVSVEFVMQEKGDRAPRFCFNLGNDGSITEAHNVYIDNV
+GH9_11_0_01001             SQGRPAGSVISSPLGWYDAGDYNKYVVNSSFSIGLMMLVYEQNKAYFHSL
+                                                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_26_457020_01700        NEPNGFD-----VKWADVKEYAEAVIPVIRKNDPDKIIICGTPTWSQDVD
+GH5_03_2463295_41230       NEPTVTAPGVGSCTWTEWKELQEQIIDTVRTYNPHAVCLCAGFNWAYDLT
+GH5_05_0_14031             NEPTVTG--TGHCTWTEWKELQEQIIDTIRAYNPKAVCLCAGFNWAYDLT
+GH5_02_3671981_90060       NEPVADD-------PEDWNRIVGECYSAVRALEKKRVIVIGSNMWQSFDT
+GH5_11_1029836_111030      NEPVAPT-------CEDWNQLVEKIVNGIRETEKERTIIFGSNRWQIPQT
+GH5_07_3004993_158220      NEVTAKEY------SDTWNRVSTTCIGRIRKIAPDMRIIIGGYYNNSIEA
+GH5_18_558318_19410        GTLEVEGGRWNMAKWLESTDYRVDPAWMGRVREVVDYVIDEGMYCILNVH
+GH5_25_3953955_161040      GNKKATQATFNGVKAAGYSSVRIPVTYLGHIGDGPAYVLDSKWIDRVAEI
+GH9_18_4196623_64310       TLKIVDCSTAVKIDNGPAANPVSLNQTGYQPKDPKVFFIDGTMSTTFKIY
+GH9_11_0_01001             NLNIPESENATADFLDEMMFNLRWLLTMQDPEDGGVYHKLTTPNFEGFVK
+                                                                             
+
+GH5_00_3953955             ------------------------------MYTVHFYAASHK---EELRA
+GH5_26_457020_01700        L-AAQDPLSYDNV-----------------MYTLHFYSGTHT---QYLRD
+GH5_03_2463295_41230       P-VATEPIARPNV-----------------AYVSHPYPMKRDQPWEEQWE
+GH5_05_0_14031             P-VASEPIARENV-----------------AYVSHPYPMKRSEPWEEQWE
+GH5_02_3671981_90060       VSQLALPEGDPNI-----------------ILSFHYYNPMLLTHYQASWM
+GH5_11_1029836_111030      FDSLRVPENDKYI-----------------MLSFHFYEPSLVTHHQAPWT
+GH5_07_3004993_158220      LVDLAAP-VDDKI-----------------IYTFHCYEPLIFTHQGAPWV
+GH5_18_558318_19410        HDTGDHGDEKNGT-----------------AWLVADRFDASKERYAALWQ
+GH5_25_3953955_161040      VGYAEKAGLKAIINIHHDGADSNYWLSIKDAVSNSTKNAAIKLEIFAIWT
+GH9_18_4196623_64310       NAKTYDVVYEGEVQG--------PIKSVGTGSEITYGDFTALEEPGTYFV
+GH9_11_0_01001             PTECKQPRYVVAKS-------------VTATYDFAAVMAQAARLLKGNRD
+                                                                             
+
+GH5_00_3953955             V-SDSALAAGVPLFISECASCENT---GNGRID------EQSWNEWNEWA
+GH5_26_457020_01700        K-AQVAINKGLALFVTEFGTTQAS---GDGGVY------FDECNTWMDWM
+GH5_03_2463295_41230       Q-DFGYVADTWPVICTEIGFCLAD---EPGAHIPVMST-EVYGEHITQYF
+GH5_05_0_14031             K-DFGYVADTYPVICTEIGFCLED---EPGAHVPVMST-DVYGEHITKYF
+GH5_02_3671981_90060       D-LRDYHG---PVHYPG-QVVTEE---ELSPLTERDQE-LGKQGIGQTYG
+GH5_11_1029836_111030      D-YAFYAG---KVNYPGIQVTDSL---ALDSLTQ-EQK-DKIASMNGEYN
+GH5_07_3004993_158220      DGMDTSFRMPFASTYRTYSKNSST---QVDAFKNLELATFKAFDPEQILG
+GH5_18_558318_19410        QIAETFRDYGEHLLFESYNEMLDS---YDSWCFASFESPDRYDATVAAAA
+GH5_25_3953955_161040      QIAEKFKDKGDFLVFESFNEIHDGGWGWSDAFKANPDAQYRILNEWNQVF
+GH9_18_4196623_64310       HTSSSGKSYNFTIADDVYNDALKASILMLYTQRCGCEVKADIGEEYADFA
+GH9_11_0_01001             YVEFSYQATEAAKRAYEWAVNHPQVFYRQGSMNQQYQPAVNTGEYGDGRA
+                                                                             
+
+GH5_00_3953955             SERNISMLCWSISDKDETCSMFKPEASSAGPWDDS---------------
+GH5_26_457020_01700        DARKISWVNWSFADKPESSAALKPGASNSGDWNMVSESGQYIKRKLSQPK
+GH5_03_2463295_41230       EKKGISFTVWCFDTS------WAPMLIS--DWDFTP--------------
+GH5_05_0_14031             EDKGISFTVWCFDTS------WAPMLIS--DWDFTP--------------
+GH5_02_3671981_90060       KDRFAAEFGKVVEVAKRYGIPVYCGEYGCLSVPSNA--------------
+GH5_11_1029836_111030      KEIMYEHMKLAIDKADSLGLQLYCGEFGAYPFFVDK--------------
+GH5_07_3004993_158220      EEYFERMLAEAVRVAEERNVALYCGEFGVIDRAQAK--------------
+GH5_18_558318_19410        YEGINNYADLFAKTVRATGGNNAVRNLVVNTYGACS--------------
+GH5_25_3953955_161040      VDAVRATGGNNATRILGLPGYCANPGFTITGFKMPDG-------------
+GH9_18_4196623_64310       HPICHTGEALIYGTDKKIDVSGGWHDAGDYGRYVVPG-------------
+GH9_11_0_01001             NDEQFWAATEMYRLTNDNKYLQDAKNLKPNRFTCPTWG------------
+                                                                             
+
+GH5_00_3953955             VIKPWG---LSVKEWLK---------------------------------
+GH5_26_457020_01700        SYESCGGDSIPTQEYVEIVPAMNKVSYPKGSPIYHNGQLHVQNGRLTNEC
+GH5_03_2463295_41230       --TTQG---RFFKAYLQGKAH-----------------------------
+GH5_05_0_14031             --TTQG---RFFKAYLQSKK------------------------------
+GH5_02_3671981_90060       --ESRYNWLADMNDVFDALGIARAVWCXX-------XXGPAYAG---LLD
+GH5_11_1029836_111030      --DVRLRWYRDICDIFHTYDIANCHWCYKGDFPIVNIDGSANELPAIIIG
+GH5_07_3004993_158220      ---DVLAWYQTFIKVMDRHGIGRAAWSYKQMDFGLVDPYVDPVREELLKL
+GH5_18_558318_19410        ---GAGTWNTHLQEPLTRFDLPEAPGHIAVQVHSYWEADKFDQQKADIDR
+GH5_25_3953955_161040      --HTSGNRIMVAVHDYDPYDYTLNKDDKGNCLYNQWGHTAQAGKAPSDKE
+GH9_18_4196623_64310       -AKTIADLFMTYQDTGYAADDLGIPESGNGVPDILDEARYELEWMFKMQA
+GH9_11_0_01001             --SVAGLGVFSWINAGESEMQSEMLQQLKDYCEQLIARVPTSSFQAPYGD
+                                                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_26_457020_01700        DFDVQLRGVSSDNMSIYTRCYSTSSLTALANDWNASLFRISVNTNGKGGY
+GH5_03_2463295_41230       --------------------------------------------------
+GH5_05_0_14031             --------------------------------------------------
+GH5_02_3671981_90060       --------------------------------------------------
+GH5_11_1029836_111030      KK------------------------------------------------
+GH5_07_3004993_158220      I-------------------------------------------------
+GH5_18_558318_19410        QFKDLDQNVVQRLG----VPVVIGEWGGGVNEDSPAMIRFAGYFSQKAKD
+GH5_25_3953955_161040      ESLVKTFEDLKAAFPDKGMPLYLGEMGCSNRSGDIAIAFQKYYLEYFCKA
+GH9_18_4196623_64310       ENGGVYHKVTCDNFPATVMADEETNQLLVLPISTTATGDFAAVMAKAYVV
+GH9_11_0_01001             RKEEFGWGCLAENCCVPGVALLYADRYIAPDRYRGYALQNIDYLLGRNAT
+                                                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_26_457020_01700        CVNGSDQWLSMYDYNDKVDELVR--LCGMRGLYCVVDWHLNEGGDPNAHL
+GH5_03_2463295_41230       --------------------------------------------------
+GH5_05_0_14031             --------------------------------------------------
+GH5_02_3671981_90060       --------------------------------------------------
+GH5_11_1029836_111030      --------------------------------------------------
+GH5_07_3004993_158220      --------------------------------------------------
+GH5_18_558318_19410        AGMAALYWMCLSDGKDRAVPTWT--TPGVKDAILKPYL------------
+GH5_25_3953955_161040      LADRKIPFFLWDNGAAGSGPETMGYINHATGAFVSETTKMLVETMVKAVT
+GH9_18_4196623_64310       YKDIDAEFALKCRDAAVKAYAYMDANAAADTTGFLNPSDVFTGEYPDAVN
+GH9_11_0_01001             GYCYVTGFGQKSPMHPHHRISSSDGIEKPFPGMLVGGPNPMQQDKVAG--
+                                                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_26_457020_01700        KEATVFWRHMAQRYTKFTHVIFEICDNASGVEWSAIKSYADSMIALIRQF
+GH5_03_2463295_41230       --------------------------------------------------
+GH5_05_0_14031             --------------------------------------------------
+GH5_02_3671981_90060       --------------------------------------------------
+GH5_11_1029836_111030      --------------------------------------------------
+GH5_07_3004993_158220      --------------------------------------------------
+GH5_18_558318_19410        --------------------------------------------------
+GH5_25_3953955_161040      TTDPSYTLQSVYNTAPVF--------------------------------
+GH9_18_4196623_64310       KDE-FFWAAVELYVATGESTYLNKAKELYSAEMELGLGWIEMALYGVHSY
+GH9_11_0_01001             --------NLVYPSSFPDESYLDEEPSYASNEIAINWNASLVALLCWMDA
+                                                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_26_457020_01700        DKNKVIICGTPSNDREWSSVISNPLSDSNVMYALHFTVGTDGQSLRDKAD
+GH5_03_2463295_41230       --------------------------------------------------
+GH5_05_0_14031             --------------------------------------------------
+GH5_02_3671981_90060       --------------------------------------------------
+GH5_11_1029836_111030      --------------------------------------------------
+GH5_07_3004993_158220      --------------------------------------------------
+GH5_18_558318_19410        --------------------------------------------------
+GH5_25_3953955_161040      --------------------------------------------------
+GH9_18_4196623_64310       LRTETSFEKDAEFTELLKTRVLDEATKSMELGKKDGYYNAMCENYPWGSN
+GH9_11_0_01001             LKSQTIWX-------LLLVNYTQVQCGWYYLNG-----------------
+                                                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_26_457020_01700        AAISRGLPLFVSEFSLSPSNGGSVNTTEAEQWITWMKNQGLSWANAHYAD
+GH5_03_2463295_41230       --------------------------------------------------
+GH5_05_0_14031             --------------------------------------------------
+GH5_02_3671981_90060       --------------------------------------------------
+GH5_11_1029836_111030      --------------------------------------------------
+GH5_07_3004993_158220      --------------------------------------------------
+GH5_18_558318_19410        --------------------------------------------------
+GH5_25_3953955_161040      --------------------------------------------------
+GH9_18_4196623_64310       LTVSNNGILYNLAYLLSDNKEFKDMCSFQVDYIMGMNVCGYSYLTGFGTN
+GH9_11_0_01001             --------------------------------------------------
+                                                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_26_457020_01700        GNDLNSMLLSGACGTKDWNSVSVAGEYIKSKLSEPHNFHGCHDGVEDILL
+GH5_03_2463295_41230       --------------------------------------------------
+GH5_05_0_14031             --------------------------------------------------
+GH5_02_3671981_90060       --------------------------------------------------
+GH5_11_1029836_111030      --------------------------------------------------
+GH5_07_3004993_158220      --------------------------------------------------
+GH5_18_558318_19410        --------------------------------------------------
+GH5_25_3953955_161040      --------------------------------------------------
+GH9_18_4196623_64310       AAEHPHHRPSQAKGHAVPGMVVGGPNGEPADPFAISALDGKAPARCYVDN
+GH9_11_0_01001             --------------------------------------------------
+                                                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_26_457020_01700        DKQLITLYPNPARDAFSVSVPEGMELMKVQLFDLTGRFLLESESDEVNIS
+GH5_03_2463295_41230       --------------------------------------------------
+GH5_05_0_14031             --------------------------------------------------
+GH5_02_3671981_90060       --------------------------------------------------
+GH5_11_1029836_111030      --------------------------------------------------
+GH5_07_3004993_158220      --------------------------------------------------
+GH5_18_558318_19410        --------------------------------------------------
+GH5_25_3953955_161040      --------------------------------------------------
+GH9_18_4196623_64310       DTAYSINEVAIYWNSPFIYILAAKAXX------XXGRVLFSKKVEKRKSF
+GH9_11_0_01001             --------------------------------------------------
+                                                                             
+
+GH5_00_3953955             -------------------------
+GH5_26_457020_01700        RLARGVYCVKVFFRDGVAVNEIVKE
+GH5_03_2463295_41230       -------------------------
+GH5_05_0_14031             -------------------------
+GH5_02_3671981_90060       -------------------------
+GH5_11_1029836_111030      -------------------------
+GH5_07_3004993_158220      -------------------------
+GH5_18_558318_19410        -------------------------
+GH5_25_3953955_161040      -------------------------
+GH9_18_4196623_64310       -------------------------
+GH9_11_0_01001             -------------------------
+                                                    

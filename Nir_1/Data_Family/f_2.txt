@@ -1,0 +1,4 @@
+Hydrolytic Activity
+[C X S M A L]
+[1 0 0 0 1 1]
+someth

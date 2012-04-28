@@ -1,0 +1,126 @@
+Hydrolytic Activity
+[C X S M A L]
+[0 0 0 0 0 0]
+
+Uncultured organism clone 2972775_58010 putative carbohydrate-active enzyme (SARM_0067) gene, complete cds
+LOCUS       HQ706071                2208 bp    DNA     linear   ENV 11-FEB-2011
+DEFINITION  Uncultured organism clone 2972775_58010 putative
+            carbohydrate-active enzyme (SARM_0067) gene, complete cds.
+ACCESSION   HQ706071
+VERSION     HQ706071.1  GI:322512663
+DBLINK      Project: 60251
+KEYWORDS    ENV.
+SOURCE      uncultured organism
+  ORGANISM  uncultured organism
+            unclassified sequences; environmental samples.
+REFERENCE   1  (bases 1 to 2208)
+  AUTHORS   Hess,M., Sczyrba,A., Egan,R., Kim,T.W., Chokhawala,H., Schroth,G.,
+            Luo,S., Clark,D.S., Chen,F., Zhang,T., Mackie,R.I.,
+            Pennacchio,L.A., Tringe,S.G., Visel,A., Woyke,T., Wang,Z. and
+            Rubin,E.M.
+  TITLE     Metagenomic discovery of biomass-degrading genes and genomes from
+            cow rumen
+  JOURNAL   Science 331 (6016), 463-467 (2011)
+   PUBMED   21273488
+REFERENCE   2  (bases 1 to 2208)
+  AUTHORS   Hess,M., Sczyrba,A., Egan,R., Kim,T.-W., Chokhawala,H., Schroth,G.,
+            Luo,S., Clark,D.S., Chen,F., Zhang,T., Mackie,R.I.,
+            Pennacchio,L.A., Tringe,S.G., Visel,A., Woyke,T.J., Wang,Z. and
+            Rubin,E.M.
+  CONSRTM   US DOE Joint Genome Institute (JGI-PGF)
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-DEC-2010) US DOE Joint Genome Institute, 2800
+            Mitchell Drive B310, Walnut Creek, CA 94598-1698, USA
+COMMENT     URL -- http://www.jgi.doe.gov
+            JGI PMO Project ID:400852
+            Contacts: Matthias Hess (mhess@lbl.gov)
+            We sequenced microbial DNA from an environmental sample using
+            Illumina's sequencing technology and generated several dozen Gbp.
+            Raw reads have been deposited already in the short read sequence
+            archive. After assembling the raw data we selected 90 putative
+            full-length genes containing a PFAM domain characteristic for
+            particular carbohydrate active enzymes. We tested the recombinant
+            proteins of these candidates for the predicted activity.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this
+            project in a timely fashion and we welcome collaborative
+            interaction on the project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Velvet v. 0.7.62.
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2208
+                     /organism="uncultured organism"
+                     /mol_type="genomic DNA"
+                     /isolation_source="cow rumen"
+                     /host="bovine"
+                     /db_xref="taxon:155900"
+                     /clone="2972775_58010"
+                     /environmental_sample
+                     /collection_date="17-Nov-2008"
+     gene            1..2208
+                     /locus_tag="SARM_0067"
+     CDS             1..2208
+                     /locus_tag="SARM_0067"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative carbohydrate-active enzyme"
+                     /protein_id="ADX05738.1"
+                     /db_xref="GI:322512664"
+                     /translation="MDMHNKISYSIVPLSIALAAASAWSEVTFYYNQVGYDAAKPISI
+                     ILKSDNSLDGAEYKLMSGGNAVKTGKLSSGTNPDNWLNNGKFYVAELEKGVSAGSYTL
+                     QVSENGQAKNSGEFKISDNALSDATLALVLNYFYKDRATNPDIVKLDEKLPVYNSGET
+                     RDVHGGWYDASGDVSKYLSHLSYANYLNPQQIPLTVWALAFTAERIPERLGKISTQAK
+                     TADEAVFGADFLVRMLDDKGFFYMTAFDNWGSPLGKRELCAFTGSDGVKSADYQSAFR
+                     EGGGMAIAALARASKLGVKGDFSSEKYLEAAEKAFEHLSQKQSIGGSCEYCDDHKENI
+                     IDDYTALLAATELYAASQKKDYLTAARKRAEHLEGRLSDDGYFWSDDDKKRPFWHASD
+                     AGLPLIALVRYAEIENTITRESELSTWDCSDSAGRGCFNPSLVGALDAIKKHYNWLIE
+                     VTNKVDNPFGYARQAYKVNESIKDGFFIPHQNESNYWWQGESARIASLAAAAIYAFGA
+                     LDLDGSEAVDKYATDQLDWILGKNPYSVCMMYGKGLKNPDKYDGQSKYDATLEGGIAN
+                     GISGKNQDGSGIAWVDDGVAAVGFDAEKEAWQVWRWTEQWLPHSTWFLMALATRYDEK
+                     PVSMQAQLPPVDTTRDTSVNDSSKTKPGDDAIPAVGFIAPQLKIAQYGHTLNVAVTGR
+                     FDGMMVRVFDLNGRPIVAKELSGHETLVQLPASLHGVYLVKVGKFGIRKIVIR"
+ORIGIN      
+        1 atggacatgc acaataaaat ttcgtattcc atagtccctc tttcgattgc gttggctgct
+       61 gccagtgcat ggtccgaagt tactttttac tacaaccagg tcggttacga tgcggctaag
+      121 cctatcagca tcatccttaa gagcgataat tcgcttgacg gtgccgagta caagttgatg
+      181 tctggcggga atgccgtcaa gacaggcaaa ctttcttctg gaaccaaccc ggacaattgg
+      241 ctgaataatg gcaagttcta tgtggctgaa ttggaaaaag gcgtctctgc tggctcctac
+      301 acattgcaag taagcgagaa cggccaggcc aagaattccg gtgaattcaa gataagcgac
+      361 aatgctcttt ccgatgcgac gctcgccttg gtgctcaatt atttttacaa ggatcgcgct
+      421 accaacccgg atatcgtgaa actggacgag aaactgcctg tttacaacag tggcgagact
+      481 cgcgacgtcc atggcggatg gtatgatgca agtggagacg tgagcaagta cctttctcac
+      541 ctgtcttacg cgaattactt gaatccacaa cagattcctc tcaccgtttg ggcgcttgcc
+      601 tttacggcag aacgcatccc agaaagactc ggaaagattt cgacacaggc aaagacggct
+      661 gacgaagctg ttttcggtgc cgatttcttg gtgcgtatgc tcgatgacaa aggtttcttc
+      721 tacatgacgg ccttcgacaa ctggggttcc cctttgggca aacgtgaact ttgcgctttc
+      781 actggttccg acggcgtcaa gagtgccgat taccagagcg cttttcgcga agggggcggc
+      841 atggcgattg cagctctcgc ccgtgcctcg aaactcggcg tgaagggtga cttttctagc
+      901 gagaagtatt tggaagcggc cgagaaggct tttgaacacc tttcccaaaa gcagagtatt
+      961 ggtggtagct gcgaatactg tgacgaccac aaggaaaata tcattgacga ctacacggct
+     1021 ctccttgctg cgacggaact ctatgccgct tcgcagaaaa aggattacct gactgcggcc
+     1081 cgcaagcgtg cagaacacct tgaaggccgt ttgagcgacg atggttactt ctggagcgac
+     1141 gacgataaaa agcgcccctt ctggcatgca agtgatgccg gccttccgct cattgcactg
+     1201 gtccgctatg cagaaatcga aaataccatt acgagggaat cggaattgtc gacttgggac
+     1261 tgctccgata gcgccggccg cggttgtttc aatccttctc ttgtcggcgc cctagatgcg
+     1321 ataaagaaac attacaactg gcttatcgag gttacgaaca aggttgataa tccgtttggc
+     1381 tacgctcgtc aggcatacaa ggtgaacgaa tccatcaagg acggtttctt tatcccgcat
+     1441 cagaacgaga gcaattattg gtggcagggc gagagcgcgc gtattgcaag cctcgctgct
+     1501 gcggctattt atgcgttcgg cgccttggac ctcgatggtt ctgaagccgt agacaagtat
+     1561 gcaaccgacc agcttgactg gattttgggc aagaacccct acagcgtgtg catgatgtat
+     1621 ggcaaggggc tcaagaatcc ggacaagtac gatggccagt ccaagtacga cgctacgctc
+     1681 gaaggcggca tcgcgaacgg cattagtggc aagaaccagg acggttcagg aatcgcatgg
+     1741 gtagacgacg gtgttgctgc cgtgggcttt gatgccgaga aagaagcgtg gcaagtgtgg
+     1801 cgttggaccg aacaatggtt gccgcacagc acgtggttct tgatggcgct tgcgacgcgc
+     1861 tacgatgaaa agccggtttc catgcaggct caattgccgc cagtcgatac gacacgggat
+     1921 acttccgtta acgactcttc gaaaaccaag cccggcgacg atgccatccc ggctgtgggg
+     1981 ttcattgcac cgcaactgaa gattgctcag tacgggcata ccctgaatgt cgctgtcacg
+     2041 gggcgtttcg atggcatgat ggtgcgagta ttcgatctca atggtcggcc gattgttgct
+     2101 aaggaactca gtggtcatga aaccttggtg caattgcctg cctcgctcca cggagtttac
+     2161 ctcgtgaagg taggcaagtt cggaatccga aagattgtga taagatag
+//

@@ -1,0 +1,42 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+GH5_00_3953955             --------------------------------------------------
+GH5_03_2463295_41230       MKRITSIAITALIFLMAVSCSSGGWVEVKGNKFIDPKGNELVFRG-----
+GH5_11_1029836_111030      -MKACIFSIAALMLALTSCNKPADQKAQNTNEETKSPYATLSLHNGVNIS
+                                                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_03_2463295_41230       --LCFSDPVKLVREGQWNERYFAEAADWGANVVRFAVHPANLNSLGWD--
+GH5_11_1029836_111030      HWLSQSGDRGEVRANKIVKKDFDSIAAMGFDFVRLAVDEEQLYDEQMNRD
+                                                                             
+
+GH5_00_3953955             ----------------------------------MYTVHFYAASHKEELR
+GH5_03_2463295_41230       -ETFQAMDQGIEWAKKHGLYVIMDWHSIGNLKDELYTNDMYNTTKAETFK
+GH5_11_1029836_111030      SSTFALMHNAINWALEDSMNIVVDLHIVR-SHHFNNENGHPNTLFQDPKE
+                                                                     :   :  .
+
+GH5_00_3953955             AVSDSALAAG--VPLFISECASCENTGNGRIDEQSWNEWNEWASERNISM
+GH5_03_2463295_41230       FWRTVAQRYKDEPAVALYELYNEPTVTAPGVGSCTWTEWKELQEQIIDTV
+GH5_11_1029836_111030      QEKIVNIWKDLQKDLKQYPNDRLAYELMNEPVAPTCEDWNQLVEKIVNGI
+                                         :                   :  :*::  .:    :
+
+GH5_00_3953955             LCWS-----------------------ISDKDETCSMFKPEAS-----SA
+GH5_03_2463295_41230       RTYNPHAVCLCAGFNWAYDLTPVATEPIARPNVAYVSHPYPMK-----RD
+GH5_11_1029836_111030      RETEKERTIIFGSNRWQIPQTFDSLRVPENDKYIMLSFHFYEPSLVTHHQ
+                              .                           .     .            
+
+GH5_00_3953955             GPWDDSVIKPWGLSVKEWLK------------------------------
+GH5_03_2463295_41230       QPWEEQWEQDFGYVADTWPVICTEIGFCLADEPGAHIPVMS----TEVYG
+GH5_11_1029836_111030      APWTDYAFYAGKVNYPGIQVTDSLALDSLTQEQKDKIASMNGEYNKEIMY
+                            ** :                                             
+
+GH5_00_3953955             --------------------------------------------------
+GH5_03_2463295_41230       EHITQYFEKKG-ISFTVWCFDTSWAPMLISD-------------------
+GH5_11_1029836_111030      EHMKLAIDKADSLGLQLYCGEFGAYPFFVDKDVRLRWYRDICDIFHTYDI
+                                                                             
+
+GH5_00_3953955             -------------------------------
+GH5_03_2463295_41230       WDFTPTTQGRFFKAYLQGKAH----------
+GH5_11_1029836_111030      ANCHWCYKGDFPIVNIDGSANELPAIIIGKK
+                                                          

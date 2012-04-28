@@ -1,0 +1,74 @@
+GH26_00_3811766_160700      MKKIAICLTMIGAVLLTACGPKKSEPARSAEAQAMLAKMKAIADGHKVMF 50
+GH26_01_798985_48230        MYFIKTRVIMKTTKLVLLFCALFWIVGESTAAISTQPVTKDATEGATLLY 50
+                            *  *   : *  : *:    .     ..*: * :  .  *  ::* .:::
+
+GH26_00_3811766_160700      GHQDDTVYGHAWQGIKDADASSEGRSDTKEVCG--------DYPAVIGFD 92
+GH26_01_798985_48230        KFLYDHFKKNTISGVMCGDMDNGASYKTQVDVAYLYSIDGNKYPALVGVD 100
+                             .  * .  :: .*:  .* .. .  .*:   .        .***::*.*
+
+GH26_00_3811766_160700      LGHLELGHPKNLDGVPFDKMRREILAQYER-GGIVTLSWHLDN------- 134
+GH26_01_798985_48230        LLNATGAQSDEAWFKTYTQSGISLAKELWKDGGIPSFNWHWKVGSENAFY 150
+                            * :   .:..:    .: :   .:  :  : *** ::.** .        
+
+GH26_00_3811766_160700      ---PLTGGDAWDFHD--KGTAASILPDGKLHEEFLTRLGRVADFLASLKT 179
+GH26_01_798985_48230        AKGANDSYTDFDYTKGFKAGTTEWDTSSETYRLLIADIDHVADLFLELQA 200
+                               .  .   :*: .  *. ::.  ...: :. ::: :.:***:: .*::
+
+GH26_00_3811766_160700      ADGTLVPVLFRPWHEHTGSWFWWGQEICTTEQYKALWRMTYDFMQ-KRGL 228
+GH26_01_798985_48230        SG---VAAIWRPLHEASGGWFWWGTKG--AKSYVALYRLVYDRMVNVKGV 245
+                            :.   *..::** ** :*.***** :   ::.* **:*:.** *   :*:
+
+GH26_00_3811766_160700      TNLLWAYSPGSEPKNQDEYFER-YPGDDIVDVLGFDTYQGRN-----RDG 272
+GH26_01_798985_48230        KNLIWVWNLEKDPTQGYAYNEAWYPGDQYIDVIGVDIYNGANNTQSNINT 295
+                            .**:*.:.  .:*.:   * *  ****: :**:*.* *:* *      : 
+
+GH26_00_3811766_160700      YMETMKRSLDVLVEAAKSHDKVAAVTETGFEG------TPDPTWWTG--- 313
+GH26_01_798985_48230        WNTIISKMGSDKILALTENGPIVDPAEAQKNGDIWSWWMPWYNSWSGGFI 345
+                            :   :.:  .  : * ..:. :.  :*:  :*       *  . *:*   
+
+GH26_00_3811766_160700      --------------------TLLPALG-----DAPVAYVLVWRNAWDRET 338
+GH26_01_798985_48230        DQTSASLWKSAMSSDLIITLDEMPGWGTYQEVEDPSCAESLKKNIYEAEC 395
+                                                  :*. *     : * .   : :* :: * 
+
+GH26_00_3811766_160700      --------------------------------------HHYGIYPGHESE 350
+GH26_01_798985_48230        SADYVASVESVNKVSGSGALNLKESTDYININIPLEKKGSYKVYVGYNSV 445
+                                                                    * :* *::* 
+
+GH26_00_3811766_160700      ADFMEFYNNPRTVFAKDIRK------------------------------ 370
+GH26_01_798985_48230        YGFKQIDCAVNGVSGTANLGEDKDDESVDKMGETLVGTFEFAAGENVVKL 495
+                             .* ::    . * ..                                  
+
+GH26_00_3811766_160700      --------------------------------------------------
+GH26_01_798985_48230        TPIWTWAVVDYVRIEKDNDAPVYEFNVSDVDGFKVSGNKLLDRCDNEFVM 545
+                                                                              
+
+GH26_00_3811766_160700      --------------------------------------------------
+GH26_01_798985_48230        RGVNLAYTWYKSSAYDQLKAIYNNKANAVRIVLTNGNAYGSPADDAASVK 595
+                                                                              
+
+GH26_00_3811766_160700      --------------------------------------------------
+GH26_01_798985_48230        KLIDACKAYGMVAILEVHDVTGSDKISDLEGAAQYFANLASTLKGTEHYV 645
+                                                                              
+
+GH26_00_3811766_160700      --------------------------------------------------
+GH26_01_798985_48230        IINIANEWHNSSSAANWKDGYVKAIPIIRKAGLRHCIMVDAGGYGQSAAT 695
+                                                                              
+
+GH26_00_3811766_160700      --------------------------------------------------
+GH26_01_798985_48230        IHTYGKDVLAADPENNVLFSIHMYGTAGNKNRVKSNIDGVINQGLALCIG 745
+                                                                              
+
+GH26_00_3811766_160700      --------------------------------------------------
+GH26_01_798985_48230        EFGWYHSDGDVDEDQILSYCQEKNVGWLAWSWYGNGSPVEYLDLVKDASS 795
+                                                                              
+
+GH26_00_3811766_160700      --------------------------------------------------
+GH26_01_798985_48230        TPTLATQSAEGNSCAWGKKVVDAWKAESKYAMLDTCPGTGLNDIASYGEK 845
+                                                                              
+
+GH26_00_3811766_160700      --------------------------------------------------
+GH26_01_798985_48230        SMLYYAQAENTLYVNTEEGGTLRIIDLKGTTIDTKHISPKESVISLEWLP 895
+                                                                              
+
+GH26_00_3811766_160700      -----------------
+GH26_01_798985_48230        KGLYIAHFEGLSVKIVR 912

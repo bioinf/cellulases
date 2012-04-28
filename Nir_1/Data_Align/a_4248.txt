@@ -1,0 +1,50 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+GH9_02_4275235_163430      --------------------------------------------------
+GH9_80_1029836_100350      MFLGASLLLAAGSVGAYDYSSYQDGFPTEDYRTAFNMGLKFFGGQRCGDS
+                                                                             
+
+GH9_02_4275235_163430      --------------------------------------------------
+GH9_80_1029836_100350      HNWMLVDNPKVSTKACHMKDGKGSVNGGGNGNYDLTGGWHDCGDHIKVGT
+                                                                             
+
+GH9_02_4275235_163430      ------------------------LNIPESENATADFLDEMMFNLRWLLT
+GH9_80_1029836_100350      TMGSSCIFLLVAYDLWPQAFQDNYDEAYGAPNGIADVLDEAKYATDYFMK
+                                                    :   : *. **.***  :   :::.
+
+GH9_02_4275235_163430      MQDPEDGGVYHKLTTPNFEGFVKPTECKQPRYVVAKSVTATYDFAAVMAQ
+GH9_80_1029836_100350      CFPDDNTFVYYVGSPADHN--VWCTSSKQSTLPVDQGGDPRPVWTTNNSG
+                               ::  **:  :..:.:  *  *..**.   * :.  .   :::  : 
+
+GH9_02_4275235_163430      AARLLKGNRDYVEFSYQATEAAKRAYEWAVNHPQLFYRQGSMNQQYQPAV
+GH9_80_1029836_100350      GPQAANCASALALMSMKYPDQAYKEQCKAAAIKAYAFAKKNQSQQ-AAIP
+                           ..:  :     . :* : .: * :    *.      : : . .**  .  
+
+GH9_02_4275235_163430      NTGEYGDGRANDEQFWAATEMYRLTNDNKYLQDAKNLKPNRFTCP---TW
+GH9_80_1029836_100350      NFYASPNTEWTDELALAAMMLYRLTGEASYKKDALGYLQGKWESNYPLAW
+                           *     : . .**   **  :****.: .* :** .   .:: .    :*
+
+GH9_02_4275235_163430      GSVAGLGVFSWINAGESE---MQSEMLQQLKDYCEQLIARVPTSSFQAPY
+GH9_80_1029836_100350      DTMADFAYYYIVKDDEGANNGQGGYFRDHMDKNVTKHLANGSADRNGFPY
+                           .::*.:. :  :: .*.      . : :::..   : :*. .:.    **
+
+GH9_02_4275235_163430      GDRKEEFGWGCLAENCCVPG--VALLYADRYIAPDR----YRGYALQNVD
+GH9_80_1029836_100350      VQG-QMWGTNKLACGAAAATSLLVKLAEDEVVSPSVNTRNAKNFITRVVD
+                            :  : :* . ** .....   :. *  *. ::*.      :.:  : **
+
+GH9_02_4275235_163430      YLLGRNATGYCYVTGFGQKSPMHPHHRISSSDGIEKPFP-----------
+GH9_80_1029836_100350      YVLGVNEFNHTFLHGFKGDMTFRIHHRNAMGRDDNPPTDEKNRSDFMFAS
+                           *:** *  .: :: **  . .:: *** : . . : *             
+
+GH9_02_4275235_163430      GMLVGGPN-------------PMQQDKVAGNLVYPSSFPDESYLDEE---
+GH9_80_1029836_100350      GGVIGGPSGTGQFSNIIEGGASYTETEGGCDYNAPFVFAMARMMAEKDPS
+                           * ::***.             .  : : . :   *  *.    : *:   
+
+GH9_02_4275235_163430      ------------------PSYASNEIAINWNAXX--------XXLNGNAF
+GH9_80_1029836_100350      SFGTGTSAVLTDHSYMVYPTDFSDYVVIDLITYGGANVTADLITLDGRVV
+                                             *:  *: :.*:  :            *:*...
+
+GH9_02_4275235_163430      LEFFYMTDNPXXXXGNCFSSTILRYNADGTT---------
+GH9_80_1029836_100350      KHIDVKNVREVMETGDVASGIYLMRVCNGEQSVGYKLIKR
+                            .:   . .     *:  *.  *   .:*           

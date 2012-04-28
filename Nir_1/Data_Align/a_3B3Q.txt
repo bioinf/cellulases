@@ -1,0 +1,66 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+GH5_11_1029836_111030      ------MKACIFSIAALMLALTSCNKPADQKAQNTNEETK-SPYATLSLH
+GH5_26_457020_01700        MNARMIFKMVVLTASFLFAGASAYSGGYDLNEEEMEQRVSPAPNAGYTYP
+                                 :*  ::: : *: . :: .   * : :: ::... :* *  :  
+
+GH5_11_1029836_111030      NGVNISHWLSQSGDRGEVRANKIVKKDFDSIAAMGFDFVRLAVDEEQLYD
+GH5_26_457020_01700        EGSPVYHNGKLSVQGTQMVSECGKPVQLRGMSSHGLAWFPKCYTEASLTA
+                           :*  : *  . * :  :: ::     :: .::: *: :.  .  * .*  
+
+GH5_11_1029836_111030      EQMNRDSSTFALMHNAINWA----------------LEDSMNIVVDL---
+GH5_26_457020_01700        LVKDWNIDIFRLAIYTHEWGGYTTNQWKSKDDYNAYIDNMVDICAKLGIY
+                              : : . * *   : :*.                ::: ::* ..*   
+
+GH5_11_1029836_111030      HIVRSHHFNNENGHPNTLFQDPKEQEKIVNIWKDLQKDLKQYPNDRLAYE
+GH5_26_457020_01700        CIIDWHVLNDGSGDPNYTLDD------AIPFWDYMSAKHKD--DKHVLYE
+                            *:  * :*: .*.**  ::*       : :*. :. . *:  :.:: **
+
+GH5_11_1029836_111030      LMNEP--VAPTCEDWNQLVEKIVNGIRETEKERTIIFGSNRWQIPQTFDS
+GH5_26_457020_01700        ICNEPNGFDVKWADVKEYAEAVIPVIRKNDPDKIIICGTPTWSQDVDLAA
+                           : ***  .  .  * :: .* ::  **:.: :: ** *:  *.    : :
+
+GH5_11_1029836_111030      LRVPENDKYIMLSFHFYEPS------------------------------
+GH5_26_457020_01700        QDPLSYDN-VMYTLHFYSGTHTQYLRDKAQVAINKGLALFVTEFGTTQAS
+                               . *: :* ::***. :                              
+
+GH5_11_1029836_111030      ---------------LVTHHQAPWTDYAFYAG------------------
+GH5_26_457020_01700        GDGGVYFDECNTWMDWMDARKISWVNWSFADKPESSAALKPGASNSGDWN
+                                           :  :: .*.:::*                     
+
+GH5_11_1029836_111030      ----------------------------------------KVNYPG----
+GH5_26_457020_01700        MVSESGQYIKRKLSQPKSYESCGGDSIPTQEYVEIVPAMNKVSYPKGSPI
+                                                                   **.**     
+
+GH5_11_1029836_111030      ----------------------------------IQVTDSLALDSLTQEQ
+GH5_26_457020_01700        YHNGQLHVQNGRLTNECDFDVQLRGVSSDNMSIYTRCYSTSSLTALANDW
+                                                              :  .: :* :*::: 
+
+GH5_11_1029836_111030      KDKIASMNG-----------------------------------------
+GH5_26_457020_01700        NASLFRISVNTNGKGGYCVNGSDQWLSMYDYNDKVDELVRLCGMRGLYCV
+                           : .:  :.                                          
+
+GH5_11_1029836_111030      --------------------------------------------------
+GH5_26_457020_01700        VDWHLNEGGDPNAHLKEATVFWRHMAQRYTKFTHVIFEICDNASGVEWSA
+                                                                             
+
+GH5_11_1029836_111030      ---------------EYNKEIMY---------------------------
+GH5_26_457020_01700        IKSYADSMIALIRQFDKNKVIICGTPSNDREWSSVISNPLSDSNVMYALH
+                                          : ** *:                            
+
+GH5_11_1029836_111030      -------EHMKLAIDKADSLGLQLYCGEFGAYP------FFVDKDVRLRW
+GH5_26_457020_01700        FTVGTDGQSLRDKADAAISRGLPLFVSEFSLSPSNGGSVNTTEAEQWITW
+                                  : ::   * * * ** *: .**.  *        .: :  : *
+
+GH5_11_1029836_111030      YRDICDIFHTYDIAN---------CHWCYKGDFPIVNID-----------
+GH5_26_457020_01700        MKNQGLSWANAHYADGNDLNSMLLSGACGTKDWNSVSVAGEYIKSKLSEP
+                            ::    : . . *:         .  * . *:  *.:            
+
+GH5_11_1029836_111030      ----GSANELPAIIIGKK--------------------------------
+GH5_26_457020_01700        HNFHGCHDGVEDILLDKQLITLYPNPARDAFSVSVPEGMELMKVQLFDLT
+                               *. : :  *::.*:                                
+
+GH5_11_1029836_111030      ----------------------------------------
+GH5_26_457020_01700        GRFLLESESDEVNISRLARGVYCVKVFFRDGVAVNEIVKE
+                                                                   

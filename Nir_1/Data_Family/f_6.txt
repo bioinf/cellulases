@@ -1,0 +1,6 @@
+Hydrolytic Activity
+[C X S M A L]
+[0 0 0 0 0 0]
+
+
+PROSITE

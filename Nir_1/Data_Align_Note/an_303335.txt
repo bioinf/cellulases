@@ -1,0 +1,13 @@
+Hydrolytic Activity
+[C X S M A L]
+[1 * 1 1 1 1 ]
+
+GH5_03_2463295_41230      WTEWKELQEQIIDTVRTYNPHAVCLCAGFNWAYDLTPVATEPIARPNVAYVSHPYPMKRD
+GH5_05_0_14031            WTEWKELQEQIIDTIRAYNPKAVCLCAGFNWAYDLTPVASEPIARENVAYVSHPYPMKRS
+GH5_00_3953955            WNEWNEWASERNISMLCWS-----------------------ISDKDETCSMFKPEASSA
+                          *.**:*  .:   ::  :.                       *:  : :   .    .  
+
+
+
+WTEWKE
+*.**:*

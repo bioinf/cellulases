@@ -1,0 +1,58 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+GH9_11_0_01001            ------------------------------------------------------------
+GH9_18_4196623_64310      MKKIVALLLSVSMIAGIAAGCKKSNSKDESTTETSSTGDSSIEVTSSETEASASEEPEGT
+                                                                                      
+
+GH9_11_0_01001            ------------------------------------------------------------
+GH9_18_4196623_64310      KPADDPDAGTRATTEIADGNYMMDEAFTSPDDFKWLTYTESGGNWEVVCENGEMVAKINS
+                                                                                      
+
+GH9_11_0_01001            ------------------------------------------------------------
+GH9_18_4196623_64310      TGSLEYACQLYYDGVALLENCKYQFDFDIKSDKARTFEWRFQLNGGDYHAYAGEKNVEAG
+                                                                                      
+
+GH9_11_0_01001            -----------------------------------RNMKIRHLLIMVFAWCGMSSMQAKP
+GH9_18_4196623_64310      PSWKHVSVEFVMQEKGDRAPRFCFNLGNDGSITEAHNVYIDNVTLKIVDCSTAVKIDNGP
+                                                             :*: * :: : :.  .   .::  *
+
+GH9_11_0_01001            IV-EIRLNQVGYYPDEEKVVVFEGIKAKEKITVTDEQGNVVLQPKVIRQAISPWSKKQRF
+GH9_18_4196623_64310      AANPVSLNQTGYQPKDPKVFFIDGTMSTTFKIYNAKTYDVVYEGEVQGPIKSVGTGSEIT
+                           .  : ***.** *.: **..::*  :.     . :  :** : :*     *  : .:  
+
+GH9_11_0_01001            IVDVSELKTPGKYTIAVKGAER--QFVVNPAALRDISHASLKFFYLMRTGIPIEKEYAGE
+GH9_18_4196623_64310      YGDFTALEEPGTYFVHTSSSGKSYNFTIADDVYNDALKASILMLYTQRCGCEVKADIGEE
+                            *.: *: **.* : ...: :  :*.:   . .*  :**: ::*  * *  :: : . *
+
+GH9_11_0_01001            YARPVGHPDLHVLIHPSAASQGRPAGSVISSPLGWYDAGDYNKYVVNSSFSIGLMMLVYE
+GH9_18_4196623_64310      YA------DFAHPICHTGEALIYGTDKKIDVSGGWHDAGDYGRYVVPGAKTIADLFMTYQ
+                          **      *:   *  :. :    :.. *. . **:*****.:*** .: :*. :::.*:
+
+GH9_11_0_01001            QNKAYFHSLNLNIPESENATADFLDEMMFNLRWLLTMQDPEDGGVYHKLTTPNFEGFVKP
+GH9_18_4196623_64310      DTG--YAADDLGIPESGNGVPDILDEARYELEWMFKMQ-AENGGVYHKVTCDNFPATVMA
+                          :.   : : :*.**** *...*:***  ::*.*::.** .*:******:*  ** . * .
+
+GH9_11_0_01001            TECKQPRYVVAKSVTATYDFAAVMAQAARLLKGNRDYVEFSYQATEAAKRAYEWAVNHPQ
+GH9_18_4196623_64310      DEETNQLLVLPISTTATGDFAAVMAKAYVVYKDID--AEFALKCRDAAVKAYAYMDAN--
+                           * .:   *:. *.*** *******:*  : *.    .**: :. :** :** :   :  
+
+GH9_11_0_01001            VFYRQGSMNQQYQPAVNTGEYGDGRANDEQFWAATEMYRLTNDNKYLQDAKNLKPNRFTC
+GH9_18_4196623_64310      --AAADTTGFLNPSDVFTGEYPDAVNKDEFFWAAVELYVATGESTYLNKAKELYSAEMEL
+                               .: .    . * **** *.  :** ****.*:*  *.:..**:.**:* . .:  
+
+GH9_11_0_01001            PT-WGSVAGLGVFSWINAGESEMQSEMLQQLKDY--CEQLIARVPTSSFQAPYGDRKEEF
+GH9_18_4196623_64310      GLGWIEMALYGVHSYLRTETSFEKDAEFTELLKTRVLDEATKSMELGKKDGYYNAMCENY
+                             * .:*  **.*::.:  *  :.  : :* .    ::    :  .. :. *.   *::
+
+GH9_11_0_01001            GWGCLAENCCVPGVALLYADRYIAPDR--YRGYALQNIDYLLGRNATGYCYVTGFGQKSP
+GH9_18_4196623_64310      PWG---SNLTVSNNGILYNLAYLLSDNKEFKDMCSFQVDYIMGMNVCGYSYLTGFGTNAA
+                           **   .*  *.. .:**   *: .*.  ::. .  ::**::* *. **.*:**** ::.
+
+GH9_11_0_01001            MHPHHRISSSDGIEKPFPGMLVGGPNPMQQDKVAGNLVYPSSFPDESYLDEEPSYASNEI
+GH9_18_4196623_64310      EHPHHRPSQAKG--HAVPGMVVGGPNGEPADPFAISALDG-KAPARCYVDNDTAYSINEV
+                           ***** *.:.*  :..***:*****    * .* . :   . * ..*:*::.:*: **:
+
+GH9_11_0_01001            AINWNASLVALLCWMDALKSQTIWXLLLVNYTQVQCGWYYLNG
+GH9_18_4196623_64310      AIYWNSPFIYILAAKAXXXXGRVLFSKKVEKRKSF--------
+                          ** **:.:: :*.         :     *:  :          
