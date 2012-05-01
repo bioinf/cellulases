@@ -32,7 +32,7 @@ ProtButton::ProtButton(int idFamNew, QString sNameProt, QString sColL, QString s
   setLayout(layout);
 }
 //*************************************************************************
-//          FAMILY BUTTON FUNCTIONS
+//          PROTEIN BUTTON FUNCTIONS
 //*************************************************************************
 void ProtButton::changeStateGrey()
 {
@@ -53,7 +53,7 @@ void ProtButton::changeStateBlack()
   pbtn->setEnabled(false);
 }
 //*************************************************************************
-//          FAMILY BUTTON SLOTS
+//          PROTEIN BUTTON SLOTS
 //*************************************************************************
 void ProtButton::changeStatePush()
 {
