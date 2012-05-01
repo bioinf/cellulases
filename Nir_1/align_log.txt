@@ -1,0 +1,29 @@
+
+
+
+ CLUSTAL 2.1 Multiple Sequence Alignments
+
+
+Sequence type explicitly set to Protein
+Sequence format is Pearson
+Sequence 1: GH10_03_3789863_192950   354 aa
+Sequence 2: GH10_05_3663344_18020    381 aa
+Sequence 3: GH9_10_2527869_58580     593 aa
+Start of Pairwise alignments
+Aligning...
+
+Sequences (1:2) Aligned. Score:  21
+Sequences (1:3) Aligned. Score:  12
+Sequences (2:3) Aligned. Score:  4
+Guide tree file created:   [align_in.dnd]
+
+There are 2 groups
+Start of Multiple Alignment
+
+Aligning...
+Group 1:                     Delayed
+Group 2:                     Delayed
+Alignment Score 223
+
+CLUSTAL-Alignment file created  [align_out.aln]
+
