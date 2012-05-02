@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'nirTabMain.h'
 **
-** Created: Wed 2. May 01:36:23 2012
+** Created: Wed 2. May 09:45:21 2012
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.0)
 **
 ** WARNING! All changes made in this file will be lost!

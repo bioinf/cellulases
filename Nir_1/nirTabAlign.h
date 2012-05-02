@@ -136,7 +136,7 @@ public slots:
   { emit saveFam();};
   void setView(QString& s1, QString& s2)
   {
-    this->setCurrentIndex(4);
+    this->setCurrentIndex(1);
   }
 
 };

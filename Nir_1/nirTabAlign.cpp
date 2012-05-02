@@ -558,8 +558,12 @@ MyTabWidgetAlign::MyTabWidgetAlign(QVector<FamilyButton*>* vbFamilyNew, QVector<
 
 
   this->setStyleSheet(
-      "QTabBar::tab { background: gray; color: white; padding: 10px; } "
-      "QTabBar::tab:selected { background: lightgray; } "
-      /*"QTabWidget::pane { border: 0; } "*/
-      /*"QWidget { background: lightgray; } "*/);
+      "QTabBar::tab { background: lightgray; color: #303070; padding: 8px;"
+                     "border-top-left-radius: 4px;"
+                     "border-top-right-radius: 4px;"
+                     "min-width: 7em;"
+                     "max-width: 7em;} "
+      "QTabBar::tab:selected { background: white; border: 1px solid #808090; border-bottom: solid 0px} "
+      "QTabBar::tab:!selected { background: lightgray; border: 1px solid #808090;} "
+      "QTabWidget::tab-bar { left: 7em; }");
 }

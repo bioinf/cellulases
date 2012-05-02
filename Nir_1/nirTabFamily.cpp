@@ -9,9 +9,10 @@ TabNewProtein::TabNewProtein(QWidget *parent)
   :QWidget(parent)
 {
   // INIT
-  ptEditProt = new QTextEdit();
-  ptEditNote = new QTextEdit();
-  pbtnSave = new QPushButton("Save");
+  pPanelFamily = new PanelFamily();
+  ptEditProt   = new QTextEdit();
+  ptEditNote   = new QTextEdit();
+  pbtnSave     = new QPushButton("Save");
 
   ptEditProt->setFont(QFont("Courier"));
   ptEditNote->setFont(QFont("Courier"));
@@ -41,7 +42,7 @@ TabNewProtein::TabNewProtein(QWidget *parent)
   layoutEdit->addLayout(layoutProt);
   layoutEdit->addLayout(layoutNote);
 
-  
+  layout->addWidget(pPanelFamily);
   layout->addLayout(layoutEdit);
   layout->addWidget(pbtnSave);
   
@@ -94,11 +95,12 @@ TabEditProtein::TabEditProtein(QWidget *parent)
   :QWidget(parent)
 {
   // INIT
-  ptEditProt = new QTextEdit();
-  ptEditNote = new QTextEdit();
-  pbtnSave = new QPushButton("Save");
+  pPanelFamily = new PanelFamily();
+  ptEditProt   = new QTextEdit();
+  ptEditNote   = new QTextEdit();
+  pbtnSave     = new QPushButton("Save");
 
-  cbProtein = new QComboBox();
+  cbProtein    = new QComboBox();
 
   idFam = 0;
   nProt = 0;
@@ -138,7 +140,7 @@ TabEditProtein::TabEditProtein(QWidget *parent)
   layoutMenu->addWidget(pbtnSave);
   layoutMenu->setAlignment(Qt::AlignBottom);
 
-
+  layout->addWidget(pPanelFamily);
   layout->addLayout(layoutMenu);
   layout->addLayout(layoutEdit);
 
@@ -217,9 +219,10 @@ TabEditFamily::TabEditFamily(QWidget *parent)
   :QWidget(parent)
 {
   // INIT
-  ptEditFam = new QTextEdit();
-  plFam = new QLabel("Information about Family");
-  pbtnSave = new QPushButton("Save");
+  pPanelFamily = new PanelFamily();
+  ptEditFam    = new QTextEdit();
+  plFam        = new QLabel("Information about Family");
+  pbtnSave     = new QPushButton("Save");
 
   idFam = 0;
   nProt = 0;
@@ -239,6 +242,7 @@ TabEditFamily::TabEditFamily(QWidget *parent)
   layoutTitle->addWidget(plFam);
   layoutTitle->addWidget(pbtnSave);
 
+  layout->addWidget(pPanelFamily);
   layout->addLayout(layoutTitle);
   layout->addWidget(ptEditFam);
 
@@ -284,15 +288,15 @@ MyTabWidgetFamily::MyTabWidgetFamily(QWidget* parent)
 {
   // INIT
 
-  pPanelFamily = new PanelFamily();
+  PanelFamily* pPanelFamily = new PanelFamily();
 
   vbFamilyNew = &(pPanelFamily->vbFamily);
   vnProtNew   = &(pPanelFamily->vnProt);
 
-  ptwidget = new QTabWidget();
-  ptab1 = new TabNewProtein();
-  ptab2 = new TabEditProtein();
-  ptab3 = new TabEditFamily();
+  ptwidget = this;
+  ptab1 = new TabNewProtein(pPanelFamily);
+  ptab2 = new TabEditProtein(pPanelFamily);
+  ptab3 = new TabEditFamily(pPanelFamily);
 
   //  CONNECTORS
   connect(this,  SIGNAL(changeToTab1(int, int)),
@@ -317,15 +321,35 @@ MyTabWidgetFamily::MyTabWidgetFamily(QWidget* parent)
   ptwidget->addTab(ptab1, "New Protein");
   ptwidget->addTab(ptab2, "Edit Protein");
   ptwidget->addTab(ptab3, "Family Information");
+  //ptwidget->setStyleSheet(
+  //  "QTabBar::tab { padding: 15px 100px 10px 10px;"
+  //                 "margin-top: 10px;"
+  //                 "color: #303070;"
+  //                 "border-width: 1px;"
+  //                 "border-top-left-radius: 4px;"
+  //                 "border-top-right-radius: 4px;}"
+  //  "QTabBar::tab:selected { background: white"
+  //  /*                          "border: 1px solid #808090;"
+  //                            "border-bottom: solid 0px;} " */
+  //  "QTabBar::tab:!selected { border-bottom: 0px solid ;}"
+  //  "QTabWidget::tab-bar { left: 30px; }");
+
   ptwidget->setStyleSheet(
-      "QTabBar::tab { background: gray; color: white; padding: 10px; } "
-      "QTabBar::tab:selected { background: lightgray; } "
-      /*"QTabWidget::pane { border: 0; } "*/
-      /*"QWidget { background: lightgray; } "*/);
+      "QTabBar::tab { background: lightgray; color: #303070; padding: 8px;"
+                     "border-top-left-radius: 4px;"
+                     "border-top-right-radius: 4px;"
+                     "min-width: 7em;"
+                     "max-width: 7em;} "
+      "QTabBar::tab:selected { background: white; border: 1px solid #808090; border-bottom: solid 0px} "
+      "QTabBar::tab:!selected { background: lightgray; border: 1px solid #808090;} "
+      "QTabWidget::tab-bar { left: 7em; }");
+
+
   
-  QVBoxLayout *layout = new QVBoxLayout;
-  layout->addWidget(pPanelFamily);
-  layout->addWidget(ptwidget);
-  setLayout(layout);
+  
+  //QVBoxLayout *layout = new QVBoxLayout;
+  ////layout->addWidget(pPanelFamily);
+  //layout->addWidget(ptwidget);
+  //setLayout(layout);
 
 }

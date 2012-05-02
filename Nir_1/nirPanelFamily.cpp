@@ -35,6 +35,7 @@ PanelFamily::PanelFamily(QWidget *parent, Qt::WFlags flags)
   }
   layout->addWidget(splFam);
   setLayout(layout);
+  this->setStyleSheet("QWidget { background-color: white; } ");
 }
 
 //*************************************************************************
@@ -154,7 +155,13 @@ FamilyButton::FamilyButton(int idFam, QString s, QString sColL, QString sColG, Q
 
   //ACTIONS
   pbtn->resize(15,15);
-  pbtn->setStyleSheet("* { background-color: rgb" + sColorG +";border-style: solid;border-width: 5px;border-color: rgb" + sColorL +";min-width: 4em;min-height: 2em;}");
+  pbtn->setStyleSheet("* { background-color: rgb" + sColorG +";"+
+                          "border-style: solid;"+
+                          "border-radius: 5px;" +
+                          "border-width: 5px;"+
+                          "border-color: rgb" + sColorL +";"+
+                          "min-width: 4em;"+
+                          "min-height: 2em;}");
 
   // LAYOUT
   QVBoxLayout *layout = new QVBoxLayout;
@@ -168,7 +175,13 @@ FamilyButton::FamilyButton(int idFam, QString s, QString sColL, QString sColG, Q
 //*************************************************************************
 void FamilyButton::changeStateGrey()
 {
-  pbtn->setStyleSheet("* { background-color: rgb" + sColorG +";border-style: solid;border-width: 5px;border-color: rgb" + sColorL +";min-width: 4em;min-height: 2em;}");
+  pbtn->setStyleSheet("* { background-color: rgb" + sColorG +";"+
+                          "border-style: solid;"+
+                          "border-radius: 5px;" +
+                          "border-width: 5px;"+
+                          "border-color: rgb" + sColorL +";"+
+                          "min-width: 4em;"+
+                          "min-height: 2em;}");
   iState = 0;
 }
 //*************************************************************************
@@ -178,7 +191,13 @@ void FamilyButton::changeStatePush()
 {
   if (iState == 0)
   {
-    pbtn->setStyleSheet("* { background-color: rgb" + sColorL +";border-style: solid;border-width: 5px;border-color: rgb" + sColorL +";min-width: 4em;min-height: 2em;}");
+      pbtn->setStyleSheet("* { background-color: rgb" + sColorL +";"+
+                          "border-style: solid;"+
+                          "border-radius: 5px;" +
+                          "border-width: 5px;"+
+                          "border-color: rgb" + sColorL +";"+
+                          "min-width: 4em;"+
+                          "min-height: 2em;}");
     iState = 1;
     emit selectFam(id);
   }

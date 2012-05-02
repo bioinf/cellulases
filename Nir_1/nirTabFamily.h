@@ -29,6 +29,7 @@ public:
   int           nProt;
 
 private:
+  PanelFamily*  pPanelFamily;
   QTextEdit*    ptEditProt;
   QLabel*       plProt;
   QTextEdit*    ptEditNote;
@@ -58,6 +59,7 @@ public:
   int           nProt;
 
 private:
+  PanelFamily*       pPanelFamily;
   QTextEdit*         ptEditProt;
   QLabel*            plProt;
   QTextEdit*         ptEditNote;
@@ -88,6 +90,7 @@ public:
   int                nProt;
 
 private:
+  PanelFamily*       pPanelFamily;
   QTextEdit*         ptEditFam;
   QLabel*            plFam;
   QPushButton*       pbtnSave;
@@ -110,10 +113,10 @@ class MyTabWidgetFamily:public QTabWidget
 public:
   MyTabWidgetFamily(QWidget* parent = 0);
 
+public:
+  //PanelFamily*    pPanelFamily;
 private:
-  PanelFamily*    pPanelFamily;
   QTabWidget*     ptwidget;
-
   TabNewProtein*  ptab1;
   TabEditProtein* ptab2;
   TabEditFamily*  ptab3;
