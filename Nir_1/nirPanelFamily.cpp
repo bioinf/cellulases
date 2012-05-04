@@ -3,7 +3,7 @@
 //*************************************************************************
 //          MAIN WINDOW
 //*************************************************************************
-PanelFamily::PanelFamily(QWidget *parent, Qt::WFlags flags)
+PanelFamily::PanelFamily(int iLayoutDir, bool bMultiPush, QWidget *parent, Qt::WFlags flags)
 	: QWidget(parent, flags)
 {
   //INIT
@@ -27,13 +27,13 @@ PanelFamily::PanelFamily(QWidget *parent, Qt::WFlags flags)
   // ACTIONS
 
   // LAYOUT
-  QBoxLayout* layout = new QBoxLayout(QBoxLayout::TopToBottom);
-  QSplitter*  splFam = new QSplitter(Qt::Horizontal);
+  QBoxLayout* layout = new QBoxLayout((QBoxLayout::Direction)iLayoutDir);
+  //QSplitter*  splFam = new QSplitter(Qt::Horizontal);
   for (int i = 0; i < vbFamily.size(); i++)
   {
-    splFam->addWidget(vbFamily.at(i));
+    layout->addWidget(vbFamily.at(i));
   }
-  layout->addWidget(splFam);
+  //layout->addWidget(splFam);
   setLayout(layout);
   this->setStyleSheet("QWidget { background-color: white; } ");
 }
@@ -161,10 +161,12 @@ FamilyButton::FamilyButton(int idFam, QString s, QString sColL, QString sColG, Q
                           "border-width: 5px;"+
                           "border-color: rgb" + sColorL +";"+
                           "min-width: 4em;"+
-                          "min-height: 2em;}");
+                          "max-width: 30em;"+
+                          "min-height: 1em;"+
+                          "max-height: 2em;}");
 
   // LAYOUT
-  QVBoxLayout *layout = new QVBoxLayout;
+  QVBoxLayout *layout = new QVBoxLayout();//(QBoxLayout::RightToLeft);//(QBoxLayout::LeftToRight);
   layout->setMargin(0);
   layout->setSpacing(0);
   layout->addWidget(pbtn);
@@ -181,7 +183,9 @@ void FamilyButton::changeStateGrey()
                           "border-width: 5px;"+
                           "border-color: rgb" + sColorL +";"+
                           "min-width: 4em;"+
-                          "min-height: 2em;}");
+                          "max-width: 30em;"+
+                          "min-height: 1em;"+
+                          "max-height: 2em;}");
   iState = 0;
 }
 //*************************************************************************
@@ -191,13 +195,15 @@ void FamilyButton::changeStatePush()
 {
   if (iState == 0)
   {
-      pbtn->setStyleSheet("* { background-color: rgb" + sColorL +";"+
-                          "border-style: solid;"+
-                          "border-radius: 5px;" +
-                          "border-width: 5px;"+
-                          "border-color: rgb" + sColorL +";"+
-                          "min-width: 4em;"+
-                          "min-height: 2em;}");
+    pbtn->setStyleSheet("* { background-color: rgb" + sColorL +";"+
+                            "border-style: solid;"+
+                            "border-radius: 5px;" +
+                            "border-width: 5px;"+
+                            "border-color: rgb" + sColorL +";"+
+                            "min-width: 4em;"+
+                            "max-width: 30em;"+
+                            "min-height: 1em;"+
+                            "max-height: 2em;}");
     iState = 1;
     emit selectFam(id);
   }

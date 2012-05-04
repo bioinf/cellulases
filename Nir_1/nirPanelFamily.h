@@ -46,7 +46,7 @@ class PanelFamily : public QWidget
 	Q_OBJECT
 
 public:
-	PanelFamily(QWidget *parent = 0, Qt::WFlags flags = 0);
+	PanelFamily(int iLayoutDir, bool bMultiPush, QWidget *parent = 0, Qt::WFlags flags = 0);
 
   void loadFileFamily();
   void loadFileProtein();
@@ -59,6 +59,10 @@ private:
   int                    idFamCurr; // id of current family;
   QString                sfProt;
   int                    nProtTotal; //number of proteins
+  // flags of view
+  int                    iLayoutDir; // This type is used to determine the direction of a box layout.
+  bool                   bMultiPush; // 0 - single Push; 1 - multiPush
+
 
 signals:
   void setFamily(int idFam, int nProt);

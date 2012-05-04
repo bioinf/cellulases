@@ -6,20 +6,24 @@
 
 Sequence type explicitly set to Protein
 Sequence format is Pearson
-Sequence 1: GH3_06_0_03232   714 aa
-Sequence 2: GH3_09_0_01993   761 aa
+Sequence 1: GH5_11_1029836_111030   379 aa
+Sequence 2: GH5_18_558318_19410     514 aa
+Sequence 3: GH5_25_3953955_161040   603 aa
 Start of Pairwise alignments
 Aligning...
 
-Sequences (1:2) Aligned. Score:  6
+Sequences (1:2) Aligned. Score:  11
+Sequences (1:3) Aligned. Score:  10
+Sequences (2:3) Aligned. Score:  23
 Guide tree file created:   [align_in.dnd]
 
-There are 1 groups
+There are 2 groups
 Start of Multiple Alignment
 
 Aligning...
 Group 1:                     Delayed
-Alignment Score -36
+Group 2:                     Delayed
+Alignment Score 424
 
 CLUSTAL-Alignment file created  [align_out.aln]
 

@@ -9,7 +9,7 @@ TabNewProtein::TabNewProtein(QWidget *parent)
   :QWidget(parent)
 {
   // INIT
-  pPanelFamily = new PanelFamily();
+  pPanelFamily = new PanelFamily(QBoxLayout::LeftToRight, 0);
   ptEditProt   = new QTextEdit();
   ptEditNote   = new QTextEdit();
   pbtnSave     = new QPushButton("Save");
@@ -95,7 +95,7 @@ TabEditProtein::TabEditProtein(QWidget *parent)
   :QWidget(parent)
 {
   // INIT
-  pPanelFamily = new PanelFamily();
+  pPanelFamily = new PanelFamily(QBoxLayout::LeftToRight, 0);
   ptEditProt   = new QTextEdit();
   ptEditNote   = new QTextEdit();
   pbtnSave     = new QPushButton("Save");
@@ -219,7 +219,7 @@ TabEditFamily::TabEditFamily(QWidget *parent)
   :QWidget(parent)
 {
   // INIT
-  pPanelFamily = new PanelFamily();
+  pPanelFamily = new PanelFamily(QBoxLayout::LeftToRight, 0);
   ptEditFam    = new QTextEdit();
   plFam        = new QLabel("Information about Family");
   pbtnSave     = new QPushButton("Save");
@@ -288,7 +288,7 @@ MyTabWidgetFamily::MyTabWidgetFamily(QWidget* parent)
 {
   // INIT
 
-  PanelFamily* pPanelFamily = new PanelFamily();
+  PanelFamily* pPanelFamily = new PanelFamily(QBoxLayout::LeftToRight, 0);
 
   vbFamilyNew = &(pPanelFamily->vbFamily);
   vnProtNew   = &(pPanelFamily->vnProt);

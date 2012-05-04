@@ -14,6 +14,7 @@
 
 #include "nirTabFamily.h"
 #include "nirTabAlign.h"
+#include "nirTabAlg.h"
 
 
 //*************************************************************************
@@ -31,7 +32,7 @@ private:
   //Align
   MyTabWidgetAlign*   ptab2;
   //Algorithms
-  //TabEditFamily*  ptab3;
+  MyTabWidgetAlg*  ptab3;
 
   QVector<FamilyButton*>* vbFamilyNew;
   QVector<int>* vnProtNew;

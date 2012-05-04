@@ -14,12 +14,14 @@ MyTabWidgetMain::MyTabWidgetMain(QWidget* parent)
   vnProtNew   = ptab1->vnProtNew;
   //Align
   ptab2 = new MyTabWidgetAlign(vbFamilyNew, vnProtNew);
+  ptab3 = new MyTabWidgetAlg(vbFamilyNew, vnProtNew);
 
   //ACTIONS
 
   // LAYOUT
   this->addTab(ptab1, "Family");
   this->addTab(ptab2, "Align");
+  this->addTab(ptab3, "Alforithms");
 
 
   this->setStyleSheet(

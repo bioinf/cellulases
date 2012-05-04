@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'nirFilter.h'
 **
-** Created: Wed 2. May 01:36:25 2012
+** Created: Fri 4. May 14:41:00 2012
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.0)
 **
 ** WARNING! All changes made in this file will be lost!
