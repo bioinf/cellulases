@@ -38,27 +38,36 @@ PanelGroupAct::PanelGroupAct(int msk, int numb, QWidget *parent)
     :QWidget(parent)
 {
   QHBoxLayout *layout = new QHBoxLayout();
+  QHBoxLayout *layoutTmp;
+  QHBoxLayout *layout1 = new QHBoxLayout();
+  QHBoxLayout *layout2 = new QHBoxLayout();
   layout->setMargin(0);
   layout->setSpacing(0);
   QString sColor;
   QPushButton* pbtn;
+  layoutTmp = layout1;
   for (int i = 0; i < 6; ++i)
   {
+    if(i>=3)
+      layoutTmp = layout2;
+
     if ( ((msk>>(2*i)) & ~((~0)<<2)) == 1) //if acvirity
-      sColor = "(195,195,195)";
+      sColor = "(232,232,232)";
     else
-      sColor = "(64,64,64)";
+      sColor = "(30,30,30)";
     pbtn = new QPushButton("");
     pbtn->setStyleSheet("* { background-color: rgb" + sColor +";"+
                           "border-style: solid;"+
                           "border-width: 1px;"+
                           "border-color: rgb(0,0,0);"+
-                          "min-width: 2em;"+
-                          "max-width: 2em;"+
-                          "min-height: 2em;"+
-                          "max-height: 2em;}");
-    layout->addWidget(pbtn);
+                          "min-width: 1em;"+
+                          "max-width: 1em;"+
+                          "min-height: 1em;"+
+                          "max-height: 1em;}");
+    layoutTmp->addWidget(pbtn);
   }
+  layout->addLayout(layout1);
+  layout->addLayout(layout2);
   layout->addWidget(new QLabel(QString::number(numb)));
   setLayout(layout);
 }
@@ -77,7 +86,15 @@ TabPrepare::TabPrepare(QVector<FamilyButton*>* vbFamilyNew, QVector<int>* vnProt
   pbtnMkGraph  = new QPushButton("Make Graph");
   pbtnImport   = new QPushButton("Import Graph");
 
-  plActivGroups = new QLabel("Alrive Groups:");
+  pfrmGroups = new QWidget();
+  plActivGroups = new QLabel("Alrive Groups:", pfrmGroups);
+  //FamilyButton* pfb =  new FamilyButton(3, "anna", "(13,14,35)", "(154,154,36)",pfrmGroups);
+  //pfb->move(100,100);
+  //PanelGroupAct* ppg = new PanelGroupAct(3, 10, pfrmGroups);
+  //ppg->move(400,400);
+
+
+
   for (int i = 0; i < 64; ++i)
     vProtId.push_back(new QVector<QString>);
   for (int i = 0; i < 7; ++i)
@@ -103,16 +120,16 @@ TabPrepare::TabPrepare(QVector<FamilyButton*>* vbFamilyNew, QVector<int>* vnProt
   QSplitter*   splAll = new QSplitter(Qt::Horizontal);
 
   QFrame*      pfrmButtons = new QFrame();
-  QFrame*      pfrmGroups = new QFrame();
+               
   QVBoxLayout* layoutButtons = new QVBoxLayout();
-               layoutGroups = new QVBoxLayout();
+               //layoutGroups = new QVBoxLayout();
   pfrmButtons->setLayout(layoutButtons);
-  pfrmGroups->setLayout(layoutGroups);
+  //pfrmGroups->setLayout(layoutGroups);
 
   layoutButtons->addWidget(pbtnMkGraph);
   layoutButtons->addWidget(pbtnImport);
 
-  layoutGroups->addWidget(plActivGroups);
+  //layoutGroups->addWidget(plActivGroups);
 
   splAll->addWidget(pPanelFamily);
   splAll->addWidget(pfrmButtons);
@@ -120,7 +137,7 @@ TabPrepare::TabPrepare(QVector<FamilyButton*>* vbFamilyNew, QVector<int>* vnProt
   
   splAll->setStretchFactor(0, 1);
   splAll->setStretchFactor(1, 1);
-  splAll->setStretchFactor(2, 3);
+  splAll->setStretchFactor(2, 1);
   splAll->setChildrenCollapsible(false);
 
   layout->addWidget(splAll);
@@ -174,20 +191,20 @@ void TabPrepare::makeGeneration()
 
 
 }
-void TabPrepare::setPanelGroup(GroupGraphNode* node)
+void TabPrepare::setPanelGroup(GroupGraphNode* node, QWidget* parent)
 {
 
   if (node->flgPainted == 0)
   {
-    PanelGroupAct* pPanelGroup = new PanelGroupAct(node->mask, node->n);
-    layoutGroups->addWidget(pPanelGroup);
+    PanelGroupAct* pPanelGroup = new PanelGroupAct(node->mask, node->n, parent);
+    pPanelGroup->node = node;
     vPanelGroup.push_back(pPanelGroup);
     node->flgPainted = true;
   }
 
   for(int i = 0; i < node->vChild.size(); ++i)
   {
-    setPanelGroup(node->vChild.at(i));
+    setPanelGroup(node->vChild.at(i), parent);
   }
 }
 //-------------------------------------------------------------------------
@@ -203,8 +220,22 @@ void TabPrepare::clearNode(GroupGraphNode* node)
   }
   delete node;
 }
+//-------------------------------------------------------------------------
+//-------------------------------------------------------------------------
 void TabPrepare::makeGragh()
 {
+//  plActivGroups->setText("blabla");
+//
+//  FamilyButton* pfb =  new FamilyButton(3, "vanna", "(13,14,35)", "(154,0,36)",pfrmGroups);
+//  pfb->move(200,200);
+//  pfb->show();
+//  PanelGroupAct* ppg = new PanelGroupAct(3, 10, pfrmGroups);
+//ppg->move(200,300);
+//  ppg->show();
+//  pfrmGroups->update();
+//  pfrmGroups->repaint();
+
+
   QVector<int>* viIsPushed;
   viIsPushed = pPanelFamily->isPushed();
 
@@ -243,8 +274,9 @@ void TabPrepare::makeGragh()
   int mskNext;
   //make New Nodes o-level
   lstCurr.push_back( new GroupGraphNode(makeProt12From6(0), vProtId.at(0)));
+  lstCurr.last()->nGeneration = 0;
 
-  for(int i = 1; i < 5; ++i)     // cycle by all generations
+  for(int i = 1; i <= 5; ++i)     // cycle by all generations
   {
     for (int j = 0; j < 64; ++j) // cycle by one generation
     {
@@ -254,6 +286,7 @@ void TabPrepare::makeGragh()
         {
           mskNext = j;
           lstNext.push_back(new GroupGraphNode(makeProt12From6(mskNext), vProtId.at(j)));
+          lstNext.last()->nGeneration = i;
           // find child:
           for (int k = 0; k < lstCurr.size(); ++k)//one parent - many children
           {
@@ -279,24 +312,97 @@ void TabPrepare::makeGragh()
     lstCurr.at(i)->vParent.push_back(root);
     root->vChild.push_back(lstCurr.at(i));
   }
+  root->nGeneration = 6;
   lstCurr.clear();
 
 
   for (int i = 0; i < vPanelGroup.size(); ++i)
   {
-    layoutGroups->removeWidget(vPanelGroup.at(i));
     delete vPanelGroup.at(i);
   }
   vPanelGroup.clear();
-  layoutGroups->addWidget(plActivGroups);
-  setPanelGroup(root);
+  setPanelGroup(root, pfrmGroups);
 
-  //QPainter painter(this);
-  //QLine line(10,550,10,50);
-  //painter.setRenderHint(QPainter::Antialiasing, true);
-  //painter.setPen(QPen(Qt::red, 5, Qt::SolidLine, Qt::RoundCap));
-  //painter.drawLine(line);
+  int step[8];
+  setMoveCords(step);
+  int count[7];
+  for(int i = 0; i < 7; ++i)
+    count[i] = 1;
 
+  PanelGroupAct* pPanelGroup;
+  int nGener, x, y;
+  for (int i = 0;i < vPanelGroup.size(); ++i)
+  {
+    pPanelGroup = vPanelGroup.at(i);
+    nGener = pPanelGroup->node->nGeneration;
+    x = count[nGener]*step[nGener];
+    y = step[7] * (7 - nGener);
+    count[nGener]++;
+    pPanelGroup->node->x = x;
+    pPanelGroup->node->y = y;
+    pPanelGroup->move(x, y);
+    pPanelGroup->show();
+  }
+
+  pfrmGroups->update();
+  pfrmGroups->repaint();
+}
+//-------------------------------------------------------------------------
+//-------------------------------------------------------------------------
+void TabPrepare::setMoveCords(int step[8])
+{
+  int count[7];
+  for(int i = 0; i < 7; ++i)
+    count[i] = 0;
+
+  for(int i = 0; i < vPanelGroup.size(); ++i)
+  {
+    count[vPanelGroup.at(i)->node->nGeneration] ++;
+  }
+
+  const QRect* rct = &(pfrmGroups->geometry());
+  int x = rct->width();
+  int y = rct->height();
+  for (int i = 0; i < 7; ++i)
+  {
+    step[i] = x / (count[i] + 1);
+  }
+  step[7] = y / 8;
+
+}
+void TabPrepare::paintGraph()
+{
+    QPainter p;
+    QPen pen;
+    pen.setColor(QColor(Qt::green));
+    p.begin(this);
+    p.setPen(pen);
+    p.drawLine(10,20,60,60);
+    p.end();
+  //int x1, x2, y1, y2;
+  //PanelGroupAct* pPanelGroup;
+  //for (int i = 0; i < vPanelGroup.size(); ++i)
+  //{
+  //  pPanelGroup = vPanelGroup.at(i);
+  //  x1 = pPanelGroup->node->x;
+  //  y1 = pPanelGroup->node->y;
+  //  for (int j = 0; j < pPanelGroup->node->vChild.size(); ++j)
+  //  {
+  //    x2 = pPanelGroup->node->vChild.at(j)->x;
+  //    y2 = pPanelGroup->node->vChild.at(j)->y;
+  //    QPainter p;
+  //    QPen pen;
+  //    pen.setColor(QColor(Qt::red));
+  //    p.begin(pfrmGroups);
+  //    p.setPen(pen);
+  //    p.drawLine(x1, y1, x2, y2);
+  //    p.end();
+  //  }
+  //}
+};
+void TabPrepare::paintEvent ( QPaintEvent * )
+{
+  paintGraph();
 }
 //*************************************************************************
 //          TAB1 ALGORITHM1
@@ -305,13 +411,59 @@ TabAlg1::TabAlg1(QVector<FamilyButton*>* vbFamilyNew, QVector<int>* vnProtNew, Q
    :QWidget(parent)
 {
   // INIT
+  QPushButton* pbtn = new QPushButton("anna", this);
 
   // CONNECT
+    connect(pbtn, SIGNAL(clicked()),
+          this,        SLOT(setButton()) );
 
-  // LAYOUT
-  QHBoxLayout* layout = new QHBoxLayout();
-  setLayout(layout);
+
+  pbtn->move(60, 60);
+  pbtn->resize(60,60);
+
+
+  flag = 0;
+
 };
+void TabAlg1::setButton()
+{
+  flag = ~(int)flag & 1;
+  QPushButton* pbtn = new QPushButton("anna", this);
+
+  pbtn->move(60, 200);
+  pbtn->resize(60,60);
+  pbtn->show();
+  this->update();
+  this->repaint();
+
+};
+void TabAlg1::func()
+{
+    QPainter p;
+    QPen pen;
+    if(flag == true)
+      pen.setColor(QColor(Qt::red));
+    else
+      pen.setColor(QColor(Qt::green));
+    p.begin(this);
+    p.setPen(pen);
+    p.drawLine(10,20,60,60);
+    p.end();
+}
+  void TabAlg1::paintEvent(QPaintEvent *)
+  {
+    //QPainter p;
+    //QPen pen;
+    //if(flag == true)
+    //  pen.setColor(QColor(Qt::red));
+    //else
+    //  pen.setColor(QColor(Qt::green));
+    //p.begin(this);
+    //p.setPen(pen);
+    //p.drawLine(10,20,60,60);
+    //p.end();
+    func();
+  }
 //*************************************************************************
 //          TAB2 ALGORITHM2
 //*************************************************************************

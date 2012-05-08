@@ -11,6 +11,12 @@
 
 #include <QStackedLayout>
 
+#include <QPainter>
+#include <QBrush>
+#include <QPen>
+#include <QFont>
+#include <QColor>
+
 #include "nirPanelFamily.h"
 #include "nirProtButt.h"
 #include "nirFilter.h"
@@ -31,7 +37,7 @@ struct GroupGraphNode : public QWidget
   }
   GroupGraphNode(int msk, QVector<QString>* ps)
   {
-    n = 1;
+    n = ps->size();
     mask = msk;
     vProtId = ps;
     flgPainted = 0;
@@ -46,6 +52,9 @@ struct GroupGraphNode : public QWidget
 
 public:
   bool flgPainted;
+  int nGeneration;
+  int x;
+  int y;
   int n; // number of nodes in node
   int mask;
   QVector<QString>*                vProtId;
@@ -63,6 +72,8 @@ class PanelGroupAct : public QWidget
   Q_OBJECT
 public:
   PanelGroupAct(int mask, int numb, QWidget *parent = 0);
+  GroupGraphNode* node;
+
 };
 
 
@@ -84,22 +95,27 @@ private:
   GroupGraphNode* root;
   QVector<int>* vnProt;
 
-  QVBoxLayout* layoutGroups;
+  //QVBoxLayout* layoutGroups;
+  QWidget*     pfrmGroups;
   QLabel* plActivGroups;
   QVector<PanelGroupAct*> vPanelGroup;
   QVector<QVector<QString>*> vProtId;
   int vvGeneration[7][64];
 
   void makeGeneration();
-  void setPanelGroup(GroupGraphNode* node);
+  void setMoveCords(int step[8]);
+  void setPanelGroup(GroupGraphNode* node, QWidget* parent);
   void clearNode(GroupGraphNode*);
+
+protected:
+    virtual void paintEvent ( QPaintEvent * ) ;
+    void paintGraph();
 
 signals:
   void importGraph();
 
 public slots:
   void makeGragh();
-
 
 };
 //*************************************************************************
@@ -110,13 +126,19 @@ class TabAlg1 : public QWidget
   Q_OBJECT
 public:
   TabAlg1(QVector<FamilyButton*>* vbFamilyNew, QVector<int>* vnProtNew, QWidget *parent = 0); 
-  
 
+  void func();
+  
+protected:
+    virtual void paintEvent ( QPaintEvent * ) ;
+    bool flag;
 private:
+  
 
 signals:
 
 public slots:
+  void setButton();
 
 
 };
