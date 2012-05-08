@@ -178,6 +178,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\nirFamilyInfo.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\nirFamilyInfo.h"
+				>
+			</File>
+			<File
 				RelativePath=".\nirFilter.cpp"
 				>
 			</File>

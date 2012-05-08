@@ -1,9 +1,9 @@
 #include "nirPanelFamily.h"
 
 //*************************************************************************
-//          MAIN WINDOW
+//           PANEL FAMILY 
 //*************************************************************************
-PanelFamily::PanelFamily(int iLayoutDir, bool bMultiPush, QWidget *parent, Qt::WFlags flags)
+PanelFamily::PanelFamily(int iLoutDir, bool bMltPush, QWidget *parent, Qt::WFlags flags)
 	: QWidget(parent, flags)
 {
   //INIT
@@ -11,7 +11,9 @@ PanelFamily::PanelFamily(int iLayoutDir, bool bMultiPush, QWidget *parent, Qt::W
   sfFamily = "initFam.txt";
   sfProt   = "initProt.txt";
 
-  idFamCurr = -1;
+  idFamCurr  = -1;
+  iLayoutDir = iLoutDir;
+  bMultiPush = bMltPush;
 
   loadFileFamily();
   loadFileProtein();
@@ -20,8 +22,11 @@ PanelFamily::PanelFamily(int iLayoutDir, bool bMultiPush, QWidget *parent, Qt::W
   for (int i = 0; i < vbFamily.size(); i++)
   {
     pbFamily = vbFamily.at(i);
-    connect(pbFamily,  SIGNAL(selectFam(int)),
+    if ( bMultiPush == false)
+    {
+      connect(pbFamily,  SIGNAL(selectFam(int)),
             this,      SLOT(changeFamily(int)) );
+    }
   }
 
   // ACTIONS
@@ -39,7 +44,7 @@ PanelFamily::PanelFamily(int iLayoutDir, bool bMultiPush, QWidget *parent, Qt::W
 }
 
 //*************************************************************************
-//          MAIN WINDOW FUNCTIONS
+//           PANEL FAMILY FUNCTIONS
 //*************************************************************************
 void PanelFamily::loadFileFamily()
 {
@@ -70,6 +75,19 @@ void PanelFamily::loadFileFamily()
 }
 //*************************************************************************
 //*************************************************************************
+QVector<int>* PanelFamily::isPushed()
+{
+  viIsPushed.clear();
+  for (int i = 0; i < 9; ++i)
+  {
+    if(vbFamily.at(i)->iState == 1)
+      viIsPushed.push_back(i);
+  }
+  return &viIsPushed;
+
+}
+//*************************************************************************
+//*************************************************************************
 void PanelFamily::loadFileProtein()
 {
   QFile         file(sfProt);
@@ -97,7 +115,7 @@ void PanelFamily::loadFileProtein()
   file.close();
 }
 //*************************************************************************
-//           MAIN WIND SLOTS
+//           PANEL FAMILY SLOTS
 //*************************************************************************
 void PanelFamily::changeFamily(int id)
 {
@@ -206,5 +224,18 @@ void FamilyButton::changeStatePush()
                             "max-height: 2em;}");
     iState = 1;
     emit selectFam(id);
+  }
+  else
+  {
+    pbtn->setStyleSheet("* { background-color: rgb" + sColorG +";"+
+                            "border-style: solid;"+
+                            "border-radius: 5px;" +
+                            "border-width: 5px;"+
+                            "border-color: rgb" + sColorL +";"+
+                            "min-width: 4em;"+
+                            "max-width: 30em;"+
+                            "min-height: 1em;"+
+                            "max-height: 2em;}");
+    iState = 0;
   }
 }

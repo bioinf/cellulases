@@ -21,7 +21,7 @@ MyTabWidgetMain::MyTabWidgetMain(QWidget* parent)
   // LAYOUT
   this->addTab(ptab1, "Family");
   this->addTab(ptab2, "Align");
-  this->addTab(ptab3, "Alforithms");
+  this->addTab(ptab3, "Algorithms");
 
 
   this->setStyleSheet(

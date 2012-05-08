@@ -46,11 +46,15 @@ class PanelFamily : public QWidget
 	Q_OBJECT
 
 public:
-	PanelFamily(int iLayoutDir, bool bMultiPush, QWidget *parent = 0, Qt::WFlags flags = 0);
+	PanelFamily(int iLoutDir, bool bMltPush, QWidget *parent = 0, Qt::WFlags flags = 0);
 
-  void loadFileFamily();
-  void loadFileProtein();
+  void            loadFileFamily();
+  void            loadFileProtein();
+  QVector<int>*   isPushed();
 public:
+
+  QVector<int>          viIsPushed;
+
   QVector<FamilyButton*> vbFamily;
   QVector<int>           vnProt;    // vector of nubmers of proteins in each family
 

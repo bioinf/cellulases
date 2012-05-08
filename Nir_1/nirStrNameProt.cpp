@@ -37,3 +37,28 @@ int   makeProtFromABC(QChar ch)
   else
     return ch.toAscii() - chA.toAscii() + 10;
 }
+
+
+int     makeProt6From12(int mask)
+{
+  int res = 0;
+  for (int i = 0; i < 6; ++i)
+  {
+    if ( ((mask>>(2*i)) & ~((~0)<<(2))) == 1<<1)
+      res += 1<<i;
+  }
+  return res;
+}
+
+int     makeProt12From6(int mask)
+{
+  int res = 0;
+  for (int i = 0; i < 6; ++i)
+  {
+    if ( ((mask>>(i)) & ~((~0)<<(1))) == 1)
+      res += 1<<(2*i+1);
+    else
+      res += 1<<(2*i);
+  }
+  return res;
+}
