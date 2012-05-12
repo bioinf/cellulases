@@ -52,9 +52,9 @@ PanelGroupAct::PanelGroupAct(int msk, int numb, QWidget *parent)
       layoutTmp = layout2;
 
     if ( ((msk>>(2*i)) & ~((~0)<<2)) == 1) //if acvirity
-      sColor = "(232,232,232)";
+      sColor = "(215,208,238)";//"(232,232,232)";
     else
-      sColor = "(30,30,30)";
+      sColor = "(140,0,140)";//"(30,30,30)";
     pbtn = new QPushButton("");
     pbtn->setStyleSheet("* { background-color: rgb" + sColor +";"+
                           "border-style: solid;"+
@@ -193,10 +193,18 @@ void TabPrepare::makeGeneration()
 }
 void TabPrepare::setPanelGroup(GroupGraphNode* node, QWidget* parent)
 {
-
+  QString sToolTip;
   if (node->flgPainted == 0)
   {
     PanelGroupAct* pPanelGroup = new PanelGroupAct(node->mask, node->n, parent);
+    sToolTip.clear();
+    for (int i = 0; i < node->vProtId->size(); ++i)
+    {
+      sToolTip.push_back(node->vProtId->at(i));
+      sToolTip.push_back("\n");
+    }
+    sToolTip.remove(sToolTip.size() - 1, 1);
+    pPanelGroup->setToolTip(sToolTip);
     pPanelGroup->node = node;
     vPanelGroup.push_back(pPanelGroup);
     node->flgPainted = true;
@@ -210,15 +218,33 @@ void TabPrepare::setPanelGroup(GroupGraphNode* node, QWidget* parent)
 //-------------------------------------------------------------------------
 //         TAB 0 SLOTS
 //-------------------------------------------------------------------------
-void TabPrepare::clearNode(GroupGraphNode* node)
+void makeLstDel(GroupGraphNode* node, QList<GroupGraphNode*>* lstDel)
 {
   if (node == NULL)
     return;
   for(int i = 0; i < node->vChild.size(); ++i)
   {
-    clearNode(node->vChild.at(i));
+    if (node->vChild.at(i)->nGeneration != -1)
+    {
+      lstDel->push_back(node->vChild.at(i));
+      node->vChild.at(i)->nGeneration = -1;
+    }
+    makeLstDel(node->vChild.at(i), lstDel);
   }
-  delete node;
+}
+void TabPrepare::clearNode(GroupGraphNode* node)
+{
+  QList<GroupGraphNode*> lstDel;
+  if (node == NULL)
+    return;
+  makeLstDel(node, &lstDel);
+  for(int i = 0; i < lstDel.size(); ++i)
+  {
+    node =lstDel.last();
+    lstDel.pop_back();
+    delete node;
+  }
+  
 }
 //-------------------------------------------------------------------------
 //-------------------------------------------------------------------------
@@ -284,14 +310,14 @@ void TabPrepare::makeGragh()
       {
         if (vProtId.at(j)->size() != 0)
         {
-          mskNext = j;
-          lstNext.push_back(new GroupGraphNode(makeProt12From6(mskNext), vProtId.at(j)));
+          mskNext = makeProt12From6(j);
+          lstNext.push_back(new GroupGraphNode(mskNext, vProtId.at(j)));
           lstNext.last()->nGeneration = i;
           // find child:
           for (int k = 0; k < lstCurr.size(); ++k)//one parent - many children
           {
             mskCurr = lstCurr.at(k)->mask;
-            if ((mskNext & mskCurr) == mskCurr)
+            if ((makeProt6From12(mskNext) & makeProt6From12(mskCurr)) == makeProt6From12(mskCurr))
             {
               lstCurr.at(k)->vParent.push_back(lstNext.last());
               lstNext.last()->vChild.push_back(lstCurr.at(k));
@@ -323,24 +349,30 @@ void TabPrepare::makeGragh()
   vPanelGroup.clear();
   setPanelGroup(root, pfrmGroups);
 
-  int step[8];
-  setMoveCords(step);
+  int stepx[7];
+  int gapx[7];
+  int stepy, shift;
+  setMoveCords(stepx, gapx, shift, stepy);
   int count[7];
   for(int i = 0; i < 7; ++i)
     count[i] = 1;
 
   PanelGroupAct* pPanelGroup;
   int nGener, x, y;
+  int sizePanelx, sizePanely;
+  sizePanelx = vPanelGroup.at(0)->rect().width();
+  sizePanely = vPanelGroup.at(0)->rect().height();
   for (int i = 0;i < vPanelGroup.size(); ++i)
   {
     pPanelGroup = vPanelGroup.at(i);
     nGener = pPanelGroup->node->nGeneration;
-    x = count[nGener]*step[nGener];
-    y = step[7] * (7 - nGener);
+    x = count[nGener]*stepx[nGener] + gapx[nGener];
+    y = stepy * (7 - nGener);
     count[nGener]++;
-    pPanelGroup->node->x = x;
-    pPanelGroup->node->y = y;
+    pPanelGroup->node->x = x + sizePanelx/2;
+    pPanelGroup->node->y = y + sizePanely/2;
     pPanelGroup->move(x, y);
+    pPanelGroup->node->x += shift;
     pPanelGroup->show();
   }
 
@@ -349,56 +381,65 @@ void TabPrepare::makeGragh()
 }
 //-------------------------------------------------------------------------
 //-------------------------------------------------------------------------
-void TabPrepare::setMoveCords(int step[8])
+void TabPrepare::setMoveCords(int stepx[7], int gapx[7], int& shift, int& stepy)
 {
   int count[7];
   for(int i = 0; i < 7; ++i)
     count[i] = 0;
+  int stepRL;
+  int maxCount = 0;
 
   for(int i = 0; i < vPanelGroup.size(); ++i)
   {
     count[vPanelGroup.at(i)->node->nGeneration] ++;
+    if(maxCount < count[vPanelGroup.at(i)->node->nGeneration])
+      maxCount = count[vPanelGroup.at(i)->node->nGeneration];
   }
 
   const QRect* rct = &(pfrmGroups->geometry());
   int x = rct->width();
   int y = rct->height();
+  stepRL = x / (maxCount+2);
+  stepRL /= 8;
+  shift = rct->left();
   for (int i = 0; i < 7; ++i)
   {
-    step[i] = x / (count[i] + 1);
+    stepx[i] = x / (count[i] + 2);
+    gapx[i] = stepRL * i;
   }
-  step[7] = y / 8;
+  stepy = y / 8;
 
 }
 void TabPrepare::paintGraph()
 {
-    QPainter p;
-    QPen pen;
-    pen.setColor(QColor(Qt::green));
-    p.begin(this);
-    p.setPen(pen);
-    p.drawLine(10,20,60,60);
-    p.end();
-  //int x1, x2, y1, y2;
-  //PanelGroupAct* pPanelGroup;
-  //for (int i = 0; i < vPanelGroup.size(); ++i)
-  //{
-  //  pPanelGroup = vPanelGroup.at(i);
-  //  x1 = pPanelGroup->node->x;
-  //  y1 = pPanelGroup->node->y;
-  //  for (int j = 0; j < pPanelGroup->node->vChild.size(); ++j)
-  //  {
-  //    x2 = pPanelGroup->node->vChild.at(j)->x;
-  //    y2 = pPanelGroup->node->vChild.at(j)->y;
-  //    QPainter p;
-  //    QPen pen;
-  //    pen.setColor(QColor(Qt::red));
-  //    p.begin(pfrmGroups);
-  //    p.setPen(pen);
-  //    p.drawLine(x1, y1, x2, y2);
-  //    p.end();
-  //  }
-  //}
+    //QPainter p;
+    //QPen pen;
+    //pen.setColor(QColor(Qt::green));
+    //p.begin(this);
+    //p.setPen(pen);
+    //p.drawLine(10,20,60,60);
+    //p.end();
+  int x1, x2, y1, y2;
+  PanelGroupAct* pPanelGroup;
+  QPainter p;
+  QPen pen;
+  pen.setColor(QColor(0,187,0));
+  p.begin(this);
+  p.setPen(pen);
+  for (int i = 0; i < vPanelGroup.size(); ++i)
+  {
+    pPanelGroup = vPanelGroup.at(i);
+    x1 = pPanelGroup->node->x;
+    y1 = pPanelGroup->node->y;
+    for (int j = 0; j < pPanelGroup->node->vChild.size(); ++j)
+    {
+      x2 = pPanelGroup->node->vChild.at(j)->x;
+      y2 = pPanelGroup->node->vChild.at(j)->y;
+
+      p.drawLine(x1, y1, x2, y2);
+    }
+  }
+  p.end();
 };
 void TabPrepare::paintEvent ( QPaintEvent * )
 {

@@ -103,7 +103,7 @@ private:
   int vvGeneration[7][64];
 
   void makeGeneration();
-  void setMoveCords(int step[8]);
+  void setMoveCords(int stepx[7], int gapx[7], int& shift, int& stepy);
   void setPanelGroup(GroupGraphNode* node, QWidget* parent);
   void clearNode(GroupGraphNode*);
 
