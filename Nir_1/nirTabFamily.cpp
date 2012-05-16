@@ -26,6 +26,9 @@ TabNewProtein::TabNewProtein(QWidget *parent)
   //  CONNECTORS
   connect(pbtnSave, SIGNAL(clicked()),
           this,     SLOT(saveProt()) );
+  connect(pPanelFamily, SIGNAL(setFamily(int, int)),
+          this,     SLOT(changeFam(int,int)) );
+
   //ACTIONS
 
   // LAYOUT
@@ -57,6 +60,7 @@ void TabNewProtein::changeById(int idFamNew, int nProtNew)
   nProt = nProtNew;
   plProt->setText("Protein. id = " + makeProtID(nProt));
   plNote->setText("Note. Name " + QString::number(idFam)+ makeProtID(nProt));
+  pPanelFamily->changeFamilyId(idFamNew);
 }
 //*************************************************************************
 //*************************************************************************
@@ -113,6 +117,8 @@ TabEditProtein::TabEditProtein(QWidget *parent)
           this,      SLOT(saveProt()) );
   connect(cbProtein, SIGNAL(activated (const QString &)),
           this,      SLOT(openProt(const QString &)) );
+  connect(pPanelFamily, SIGNAL(setFamily(int, int)),
+          this,     SLOT(changeFam(int,int)) );
 
 
   //ACTIONS
@@ -165,6 +171,8 @@ void TabEditProtein::changeById(int idFamNew, int nProtNew)
   cbProtein->addItem("");
   for (int i = 0; i < nProt; i++)
     cbProtein->addItem(makeProtID(i));
+
+  pPanelFamily->changeFamilyId(idFamNew);
 }
 //*************************************************************************
 
@@ -230,6 +238,8 @@ TabEditFamily::TabEditFamily(QWidget *parent)
   // CONNECTORS
   connect(pbtnSave, SIGNAL(clicked()),
           this,     SLOT(saveProt()) );
+  connect(pPanelFamily, SIGNAL(setFamily(int, int)),
+          this,     SLOT(changeFam(int,int)) );
 
   // ACTIONS
   ptEditFam->setFont(QFont("Courier"));
@@ -262,6 +272,8 @@ void TabEditFamily::changeById(int idFamNew, int nProt)
   QTextStream streamProt(&fileProt);
   ptEditFam->setPlainText(streamProt.readAll());
   fileProt.close();
+
+  pPanelFamily->changeFamilyId(idFamNew);
 }
 //*************************************************************************
 //          TAB3 EDIT FAMILY SLOTS
@@ -279,7 +291,7 @@ void TabEditFamily::saveProt()
 
 
 //*************************************************************************
-//          BASIC TAB WIDGET
+//          BASIC TAB FAMILY WIDGET
 //*************************************************************************
 
 
@@ -299,16 +311,26 @@ MyTabWidgetFamily::MyTabWidgetFamily(QWidget* parent)
   ptab3 = new TabEditFamily(pPanelFamily);
 
   //  CONNECTORS
-  connect(this,  SIGNAL(changeToTab1(int, int)),
-          ptab1, SLOT(changeById(int, int))     );
-  connect(this,  SIGNAL(changeToTab1(int, int)),
+  connect(ptab1,  SIGNAL(changeFamId(int, int)),
+          this, SLOT(changeFam(int, int))     );
+  connect(ptab2,  SIGNAL(changeFamId(int, int)),
+          this, SLOT(changeFam(int, int))     );
+  connect(ptab3,  SIGNAL(changeFamId(int, int)),
+          this, SLOT(changeFam(int, int))     );
+
+  
+  connect(this,  SIGNAL(changeFamId(int, int)),
           ptab2, SLOT(changeById(int, int))     );
+  connect(this,  SIGNAL(changeFamId(int, int)),
+          ptab1, SLOT(changeById(int, int))     );
+  connect(this,  SIGNAL(changeFamId(int, int)),
+          ptab3, SLOT(changeById(int, int))     );
+
   connect(ptab1, SIGNAL(saveFam()),
           this,  SLOT(saveFamToMain()) );
   connect(ptab1, SIGNAL(saveFam()),
           ptab2, SLOT(changeNumbProt()) );
-  connect(this,  SIGNAL(changeToTab1(int, int)),
-          ptab3, SLOT(changeById(int, int))     );
+
 
   connect(pPanelFamily, SIGNAL(setFamily(int, int)),
           this,         SLOT(changeTab1(int, int))  );

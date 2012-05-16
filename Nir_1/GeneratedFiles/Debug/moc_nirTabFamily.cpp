@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'nirTabFamily.h'
 **
-** Created: Wed 9. May 02:00:21 2012
+** Created: Thu 17. May 02:26:24 2012
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.0)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -23,26 +23,29 @@ static const uint qt_meta_data_TabNewProtein[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       3,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       1,       // signalCount
+       2,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
       15,   14,   14,   14, 0x05,
+      37,   25,   14,   14, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      27,   25,   14,   14, 0x0a,
-      47,   14,   14,   14, 0x0a,
+      58,   25,   14,   14, 0x0a,
+      79,   77,   14,   14, 0x0a,
+      99,   14,   14,   14, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_TabNewProtein[] = {
-    "TabNewProtein\0\0saveFam()\0,\0"
-    "changeById(int,int)\0saveProt()\0"
+    "TabNewProtein\0\0saveFam()\0idFam,nProt\0"
+    "changeFamId(int,int)\0changeFam(int,int)\0"
+    ",\0changeById(int,int)\0saveProt()\0"
 };
 
 void TabNewProtein::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -52,8 +55,10 @@ void TabNewProtein::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         TabNewProtein *_t = static_cast<TabNewProtein *>(_o);
         switch (_id) {
         case 0: _t->saveFam(); break;
-        case 1: _t->changeById((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
-        case 2: _t->saveProt(); break;
+        case 1: _t->changeFamId((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 2: _t->changeFam((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 3: _t->changeById((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 4: _t->saveProt(); break;
         default: ;
         }
     }
@@ -91,9 +96,9 @@ int TabNewProtein::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 5;
     }
     return _id;
 }
@@ -103,32 +108,44 @@ void TabNewProtein::saveFam()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, 0);
 }
+
+// SIGNAL 1
+void TabNewProtein::changeFamId(int _t1, int _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
 static const uint qt_meta_data_TabEditProtein[] = {
 
  // content:
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
+       6,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       0,       // signalCount
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      28,   16,   15,   15, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      18,   16,   15,   15, 0x0a,
-      38,   15,   15,   15, 0x0a,
-      64,   55,   15,   15, 0x0a,
-      82,   15,   15,   15, 0x0a,
+      49,   16,   15,   15, 0x0a,
+      70,   68,   15,   15, 0x0a,
+      90,   15,   15,   15, 0x0a,
+     116,  107,   15,   15, 0x0a,
+     134,   15,   15,   15, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_TabEditProtein[] = {
-    "TabEditProtein\0\0,\0changeById(int,int)\0"
-    "changeNumbProt()\0nameProt\0openProt(QString)\0"
-    "saveProt()\0"
+    "TabEditProtein\0\0idFam,nProt\0"
+    "changeFamId(int,int)\0changeFam(int,int)\0"
+    ",\0changeById(int,int)\0changeNumbProt()\0"
+    "nameProt\0openProt(QString)\0saveProt()\0"
 };
 
 void TabEditProtein::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -137,10 +154,12 @@ void TabEditProtein::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         Q_ASSERT(staticMetaObject.cast(_o));
         TabEditProtein *_t = static_cast<TabEditProtein *>(_o);
         switch (_id) {
-        case 0: _t->changeById((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
-        case 1: _t->changeNumbProt(); break;
-        case 2: _t->openProt((*reinterpret_cast< const QString(*)>(_a[1]))); break;
-        case 3: _t->saveProt(); break;
+        case 0: _t->changeFamId((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 1: _t->changeFam((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 2: _t->changeById((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 3: _t->changeNumbProt(); break;
+        case 4: _t->openProt((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 5: _t->saveProt(); break;
         default: ;
         }
     }
@@ -178,11 +197,18 @@ int TabEditProtein::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 6;
     }
     return _id;
+}
+
+// SIGNAL 0
+void TabEditProtein::changeFamId(int _t1, int _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 static const uint qt_meta_data_TabEditFamily[] = {
 
@@ -190,23 +216,28 @@ static const uint qt_meta_data_TabEditFamily[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       0,       // signalCount
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      27,   15,   14,   14, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      17,   15,   14,   14, 0x0a,
-      37,   14,   14,   14, 0x0a,
+      48,   15,   14,   14, 0x0a,
+      69,   67,   14,   14, 0x0a,
+      89,   14,   14,   14, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_TabEditFamily[] = {
-    "TabEditFamily\0\0,\0changeById(int,int)\0"
-    "saveProt()\0"
+    "TabEditFamily\0\0idFam,nProt\0"
+    "changeFamId(int,int)\0changeFam(int,int)\0"
+    ",\0changeById(int,int)\0saveProt()\0"
 };
 
 void TabEditFamily::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -215,8 +246,10 @@ void TabEditFamily::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         Q_ASSERT(staticMetaObject.cast(_o));
         TabEditFamily *_t = static_cast<TabEditFamily *>(_o);
         switch (_id) {
-        case 0: _t->changeById((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
-        case 1: _t->saveProt(); break;
+        case 0: _t->changeFamId((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 1: _t->changeFam((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 2: _t->changeById((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 3: _t->saveProt(); break;
         default: ;
         }
     }
@@ -254,11 +287,18 @@ int TabEditFamily::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 4;
     }
     return _id;
+}
+
+// SIGNAL 0
+void TabEditFamily::changeFamId(int _t1, int _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 static const uint qt_meta_data_MyTabWidgetFamily[] = {
 
@@ -275,19 +315,19 @@ static const uint qt_meta_data_MyTabWidgetFamily[] = {
 
  // signals: signature, parameters, type, tag, flags
       31,   19,   18,   18, 0x05,
-      53,   18,   18,   18, 0x05,
+      52,   18,   18,   18, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      63,   19,   18,   18, 0x0a,
-      83,   18,   18,   18, 0x0a,
+      62,   19,   18,   18, 0x0a,
+      81,   18,   18,   18, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_MyTabWidgetFamily[] = {
     "MyTabWidgetFamily\0\0idFam,nProt\0"
-    "changeToTab1(int,int)\0saveFam()\0"
-    "changeTab1(int,int)\0saveFamToMain()\0"
+    "changeFamId(int,int)\0saveFam()\0"
+    "changeFam(int,int)\0saveFamToMain()\0"
 };
 
 void MyTabWidgetFamily::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -296,9 +336,9 @@ void MyTabWidgetFamily::qt_static_metacall(QObject *_o, QMetaObject::Call _c, in
         Q_ASSERT(staticMetaObject.cast(_o));
         MyTabWidgetFamily *_t = static_cast<MyTabWidgetFamily *>(_o);
         switch (_id) {
-        case 0: _t->changeToTab1((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 0: _t->changeFamId((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
         case 1: _t->saveFam(); break;
-        case 2: _t->changeTab1((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 2: _t->changeFam((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
         case 3: _t->saveFamToMain(); break;
         default: ;
         }
@@ -345,7 +385,7 @@ int MyTabWidgetFamily::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void MyTabWidgetFamily::changeToTab1(int _t1, int _t2)
+void MyTabWidgetFamily::changeFamId(int _t1, int _t2)
 {
     void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);

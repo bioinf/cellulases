@@ -1,4 +1,22 @@
-Hydrolytic Activity
-[C X S M A L]
-[0 0 0 0 0 0]
-gdfgd
+
+GLYCOSYL_HYDROL_F8, PS00812; Glycosyl hydrolases family 8 signature  (PATTERN)
+
+Consensus pattern:
+A-[ST]-D-[AG]-D-x(2)-[IM]-A-x-[SA]-[LIVM]-[LIVMG]-x-A-x(3)-[FW] 
+The first D is an active site residue
+
+GUB_BACCI/154-172       ATDGDmdIAySLLlAdkqW
+GUN2_CLOJO/153-171      ATDADedIAvSLVfAhkkW
+GUNA_CLOTH/150-168      ATDADedIAlALIfAdklW
+GUNA_GLUHA/112-130      ATDGDllIAlALGrAgkrF
+GUNC_CLOCE/153-171      ATDADedIAvSLVfAhkkW
+GUNY_DICD3/108-126      ASDGDvlIAwALLkAgnkW
+GUN_BACSZ/189-207       ATDGDldIAySLLlAhkqW
+GUN_CELUD/108-126       ATDGDtlIAwALLrAqkqW
+GUN_ECO57/114-132       ASDGDvwMAwSLLeAgrlW
+GUN_ECOLI/114-132       ASDGDvwMAwSLLeAgrlW
+GUN_PSEFS/117-135       ASDADlwMAyALLeAarvW
+GUN_SALTI/115-133       ASDGDiwMAwSLLeAgrlW
+GUN_SALTY/115-133       ASDGDiwMAwSLLeAgrlW
+
+

@@ -1,0 +1,34 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+GH10_00_1263208_168160      MKRLSVVLVLFLMCATDASAQKTLKGAYADAFKMGCAVNSSIVNGRDARS
+GH10_03_3789863_192950      -------------CTPEAKKEKTLCEAFEDKFLVGAAVNQWQVNTTDEKL
+                                         *:.:*. :***  *: * * :*.***.  **  * : 
+
+GH10_00_1263208_168160      AQIILQQFNAVSPENDMKAEVLHPSPDRWNFQAADRYVQFAKDNGLWALG
+GH10_03_3789863_192950      ANLIKTEFNCLVAENCMKGEVVSPEEGVWDFKLADEFVDLCEKNKQACYG
+                            *::*  :**.: .** **.**: *. . *:*: **.:*::.:.*   . *
+
+GH10_00_1263208_168160      HTLVWHNQTPDFFFNHVDGTPKSHDEMVETMRSYIETVAGHFSGKIDAWD
+GH10_03_3789863_192950      HCLVWHSQAPQWIFSDKNGNPVDKETLVERMKNHIRTVVGRYKGRVKSWD
+                            * ****.*:*:::*.. :*.* .:: :** *:.:*.**.*::.*::.:**
+
+GH10_00_1263208_168160      VVXXXX---------------------------KSVPVNAR---------
+GH10_03_3789863_192950      VVNEAIEDDGSFRHSPYYNIIGEEYFEIAFKTAQEADPNCELYYNDYSMD
+                            **                               :..  *..         
+
+GH10_00_1263208_168160      --------------------------------------------------
+GH10_03_3789863_192950      KPAKRDAVVALVKSLREKGCRVDGVGMQSHVAFDTPLDEYEKTIEALAAA
+                                                                              
+
+GH10_00_1263208_168160      --------------------------------------------------
+GH10_03_3789863_192950      NCKVMITELDLSVLPWPNGNQGAEISNNFEYAKEMDPYKDGLPEEKEQEV
+                                                                              
+
+GH10_00_1263208_168160      --------------------------------------------------
+GH10_03_3789863_192950      TDFYTKLFNIYLRHADAIVRVNFWGVSDGDSWKNDWPIKGRTDYPLAFDR
+                                                                              
+
+GH10_00_1263208_168160      -----------------
+GH10_03_3789863_192950      NLQPRKFVEAIKALVVK
+                                             

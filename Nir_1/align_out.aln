@@ -1,67 +1,52 @@
 CLUSTAL 2.1 multiple sequence alignment
 
 
-GH5_18_558318_19410        ----MRFRLPILALALFAFACGEPAEVTPEEIPGPVLVSASPADGTGG--
-GH5_25_3953955_161040      MNDIMNKLLTALAALAVMVSCGNSDEPKQEESILTVTTKSLSFDYSGGTQ
-GH5_11_1029836_111030      ---MKACIFSIAALMLALTSCNKPADQKAQNTNEETKSPYATLSLHNG--
-                                   :.  *      :*.:. : . ::    .     . .  .*  
+GH9_03_2606882_89750      -----------MSGKAVLTLEAPMVYDWEYSGEEVQTYDISSIKKPGTYRLFRDGYIGNP
+site_1                    --------------------------------------DI-----------LRDA-----
+GH5_22_0_04358            RQLRLIIVMAFAMLTPIIAFADDEISAFESANDAVKHMKVG-WNLGNTLDAHNGQRVTDP
+                                                                .:            ..      
 
-GH5_18_558318_19410        ---IVESSLP--------------------VTFTFDQNIICSQEGQQG-V
-GH5_25_3953955_161040      TVNVVSSIDPGINCKDSWLTVTKGEYLDKNVQLTIVAATNTTSSARKGNV
-GH5_11_1029836_111030      ----------------------------------VNISHWLSQSGDRGEV
-                                                             .      :... :* *
+GH9_03_2606882_89750      IVVGEAVYEDLTKAALKWFYYQR------------AGMALDTRYAGKWARAAGHMDDKVI
+site_1                    ------------------------------------------------------------
+GH5_22_0_04358            KVSEIMWGQPVTTPELMQMMKEVGFGAIRVPVTWYPHMDGNNKVDAAWMKRVHEIVDYVI
+                                                                                      
 
-GH5_18_558318_19410        TVDG-----------GAYVSKVSLSGPDLTVVVSG----LSRGKHYVVTL
-GH5_25_3953955_161040      SINGDKKTITIEVTQGVLDYPLEVDKTSLSFTYAGGGAAVTASSTSEVTI
-GH5_11_1029836_111030      RANK-----------------------------------IVKKDFDSIAA
-                             :                                    :   .   :: 
+GH9_03_2606882_89750      IYGTDLPT---ATTVAKANGKPAPQKADAKYIKSQRGWYD------------------AG
+site_1                    ------------------------------------------------------------
+GH5_22_0_04358            STGMYCILNVHHDTGADSDNTKSWLKADETVYNQQKARYEYLWQQIAEEFKDYGERLLFE
+                                                                                      
 
-GH5_18_558318_19410        PAGTVLGFQKN-QKGSEAVTYRFLTKEPDP-------------APEPGAW
-GH5_25_3953955_161040      SGGADWCKATAGKQGEDRKTEITVLAGPNLSGASRSTSFTIKCGAESKTV
-GH5_11_1029836_111030      MGFDFVRLAVDEEQLYD----------------------------EQMNR
-                            .          ::  :                            *    
+GH9_03_2606882_89750      DYGKYIVNSGITVFTLLELYEHFPVYMDTLQWNIPREFPKMPEILEEIRWN--LDWMLS-
+site_1                    ------------------------------------------------------------
+GH5_22_0_04358            SYNEMLDTYNSWCFASFAAPGQYNASVATSAYNAINSYAQSFVIPYVLRVETMPSAILSX
+                                                                                      
 
-GH5_18_558318_19410        ESASDAVRNMGAGWNLGNTLDANSGDITHMW---IEFNPHPTTADYETAW
-GH5_25_3953955_161040      DVTQPALGAIAAAAATALTQDAVYDMFKMGWNLGNQMDANSNGVASETVW
-GH5_11_1029836_111030      DSSTFALMHNAINWALEDSMNIVVDLHIVRSHHFNNENGHPN-----TLF
-                           : :  *:   .       : :   .          : : :..     * :
+GH9_03_2606882_89750      ------MQDKDGGVYHKLTSLK------------FGSSTMPEIDGALR--------YAIE
+site_1                    ------------------------------------------------------------
+GH5_22_0_04358            IPTEHAMVREHGILIYKTHXSKXNCLPISRRTYYFPSSRLSXCSGSLISHERGRSDFXRS
+                                                                                      
 
-GH5_18_558318_19410        GQPVTTRALIHMFKEAGFNAIRVPVTWYPHIGTLEVEGGRWNMAKWLEST
-GH5_25_3953955_161040      GNKKATQATFNGVKAAGYSSVRIPVTYLGHIG---------------DGP
-GH5_11_1029836_111030      QDPKEQEKIVNIWKDLQKDLKQYPN----------------------DRL
-                            :    .  .:  *    .  : *                       :  
+GH9_03_2606882_89750      KSLTATLDFAAVMA-----QASRVY--AKFDADFSKRMLNAAE-----------------
+site_1                    ------------------------------------------------------------
+GH5_22_0_04358            QYLSCTEGSACCYWXVGNKQWQRLYXKTKQCAXFCKILCGASQGLXLCTILLDGIEXWNS
+                                                                                      
 
-GH5_18_558318_19410        DYRVDPAWMGRVREVVDYVIDEGMYCILNVHHDTGDHGDEK-NGTAWLVA
-GH5_25_3953955_161040      AYVLDSKWIDRVAEIVGYAEKAGLKAIINIHHDGADSNYWLSIKDAVSNS
-GH5_11_1029836_111030      AYELMNEPVAPTCEDWNQLVEK----IVNGIRETEKERTIIFGSNRWQIP
-                            * :    :  . *  .   .     *:*  ::  .             .
+GH9_03_2606882_89750      --VAYFWAKRH-----PKALYK--QPSDVETGNYTYGEENGKDEFAFAATELFR------
+site_1                    ------------------------------------------------------------
+GH5_22_0_04358            PFVPCFXSSRFGFSYLASLLWXXLQSQIVDGRRFXNYELSCQLXSAMVRTESXQXRSVXA
+                                                                                      
 
-GH5_18_558318_19410        DRFDASKERYAALWQQIAETFRDYGEHLLFESYNEMLDSYDSWCFASFES
-GH5_25_3953955_161040      TKNAAIKLEIFAIWTQIAEKFKDKGDFLVFESFNEIHDGGWGWSDAFKAN
-GH5_11_1029836_111030      QTFDSLRVPENDKYIMLSFHFYEPS-------------------------
-                               : :      :  ::  * : .                         
+GH9_03_2606882_89750      ATKKSD----YLKDLKQYTFRADGAWWGDVNMLAIYHVALDSAEFGAK--------LGGE
+site_1                    ------------------------------------------------------------
+GH5_22_0_04358            FTRQSVXSWAKLQIVAIIILRSMEKKMEKSSLLLFPHKLPPFSSIVIRXELNQDVSPCNT
+                                                                                      
 
-GH5_18_558318_19410        PDRYDATVAAAAYEGINNYADLFAKTVRATGGNNAVRNLVVNTYGACSGA
-GH5_25_3953955_161040      PD--------AQYRILNEWNQVFVDAVRATGGNNATRILGLPGYCANPGF
-GH5_11_1029836_111030      --------------LVTHHQAPWTDYAFYAGKVN------------YPGI
-                                          :..    :.. .  :*  *             .* 
+GH9_03_2606882_89750      ARKALLKVANELRTVGDTSAYRLPAXXXXTGLCGIRREARRRGAQGXXXXIWMVHSSALT
+site_1                    ------------------------------------------------------------
+GH5_22_0_04358            XKQVTVPLTXKKRTLLRTMERKXNQGLVHSGDVRWNHNHLRNRRVSXQQRQIPRKTEPFT
+                                                                                      
 
-GH5_18_558318_19410        GTWNTHLQEPLTR-------------FDLPEAPGHIAVQVHSYWEADKFD
-GH5_25_3953955_161040      TITGFKMPDGHTSGNRIMVAVHDYDPYDYTLNKDDKGNCLYNQWGHTAQA
-GH5_11_1029836_111030      QVTDSLALDSLTQ-----------------EQKDKIASMNG---------
-                              .    :  *                     .. .             
-
-GH5_18_558318_19410        -----QQKADIDRQFKDLDQNVVQRLGVPVVIGEWGGGVNEDSPAMIR--
-GH5_25_3953955_161040      GKAPSDKEESLVKTFEDLKAAFPD-KGMPLYLGEMGCSNRSGDIAIAFQK
-GH5_11_1029836_111030      -----EYNKEIMYEHMKLAIDKADSLGLQLYCGEFGAYPFFVDKDVRLR-
-                                : : .:   . .*     :  *: :  ** *      .  :    
-
-GH5_18_558318_19410        -FAGYFSQKAKDAGMAALYWMCLSDGK-----------DRAVPTWTTPGV
-GH5_25_3953955_161040      YYLEYFCKALADRKIPFFLWDNGAAGSGPETMGYINHATGAFVSETTKML
-GH5_11_1029836_111030      -WYRDICDIFHTYDIANCHWCYK----------------GDFPIVNIDGS
-                            :   :..      :.   *                     .   .    
-
-GH5_18_558318_19410        KDAILKPYL------------------
-GH5_25_3953955_161040      VETMVKAVTTTDPSYTLQSVYNTAPVF
-GH5_11_1029836_111030      ANELPAIIIGKK---------------
-                            : :                       
+GH9_03_2606882_89750      TSWARTRWKSPTSLALATGARAIR---------TTA-
+site_1                    -------------------------------------
+GH5_22_0_04358            TSRDNVX-RIPSVASISKTERSIMXGNTYYILLSSPR
+                                                               

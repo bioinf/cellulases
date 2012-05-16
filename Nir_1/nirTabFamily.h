@@ -40,9 +40,11 @@ private:
 
 signals:
   void saveFam();
-
+  void changeFamId(int idFam, int nProt);
 
 public slots:
+  void changeFam(int idFam, int nProt)
+  { emit changeFamId(idFam, nProt);};
   void changeById(int , int );
   void saveProt();
 };
@@ -70,8 +72,11 @@ private:
   QString            sNameProt;
 
 signals:
+  void changeFamId(int idFam, int nProt);
 
 public slots:
+  void changeFam(int idFam, int nProt)
+  { emit changeFamId(idFam, nProt);};
   void changeById(int , int );
   void changeNumbProt();
   void openProt(const QString & nameProt);
@@ -97,8 +102,11 @@ private:
   QString            sNameProt;
 
 signals:
+  void changeFamId(int idFam, int nProt);
 
 public slots:
+  void changeFam(int idFam, int nProt)
+  { emit changeFamId(idFam, nProt);};
   void changeById(int , int );
   void saveProt();
 
@@ -127,12 +135,12 @@ public:
 
 
 signals:
-  void changeToTab1(int idFam, int nProt);
+  void changeFamId(int idFam, int nProt);
   void saveFam();
 
 public slots:
-  void changeTab1(int idFam, int nProt)
-  { emit changeToTab1(idFam, nProt);};
+  void changeFam(int idFam, int nProt)
+  { emit changeFamId(idFam, nProt);};
   void saveFamToMain()
   { emit saveFam();};
 

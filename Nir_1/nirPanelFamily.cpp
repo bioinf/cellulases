@@ -114,6 +114,15 @@ void PanelFamily::loadFileProtein()
   }
   file.close();
 }
+void PanelFamily::changeFamilyId(int id)
+{
+  if(idFamCurr != -1)
+  {
+    vbFamily.at(idFamCurr)->changeStateGrey();
+  }
+  vbFamily.at(id)->changeStateLight();
+  idFamCurr = id;
+}
 //*************************************************************************
 //           PANEL FAMILY SLOTS
 //*************************************************************************
@@ -196,6 +205,19 @@ FamilyButton::FamilyButton(int idFam, QString s, QString sColL, QString sColG, Q
 void FamilyButton::changeStateGrey()
 {
   pbtn->setStyleSheet("* { background-color: rgb" + sColorG +";"+
+                          "border-style: solid;"+
+                          "border-radius: 5px;" +
+                          "border-width: 5px;"+
+                          "border-color: rgb" + sColorL +";"+
+                          "min-width: 4em;"+
+                          "max-width: 30em;"+
+                          "min-height: 1em;"+
+                          "max-height: 2em;}");
+  iState = 0;
+}
+void FamilyButton::changeStateLight()
+{
+  pbtn->setStyleSheet("* { background-color: rgb" + sColorL +";"+
                           "border-style: solid;"+
                           "border-radius: 5px;" +
                           "border-width: 5px;"+

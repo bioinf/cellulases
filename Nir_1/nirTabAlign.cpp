@@ -243,50 +243,58 @@ void TabAlignment::setFilter(int mask)
 }
 void TabAlignment::resetAlign()
 {
-    QFile fFastaIn("align_in.fasta");
-    fFastaIn.open(QIODevice::WriteOnly | QIODevice::Text);
-    QTextStream streamFastaIn(&fFastaIn);
-    streamFastaIn << ptEditFasta->toPlainText();
-    fFastaIn.close();
+  QFile fFastaIn("align_in.fasta");
+  fFastaIn.open(QIODevice::WriteOnly | QIODevice::Text);
+  QTextStream streamFastaIn(&fFastaIn);
+  streamFastaIn << ptEditFasta->toPlainText();
+  fFastaIn.close();
 
-    QString program = "clustalw2";
-    QStringList arguments;
-    arguments << "-align" << "-infile=align_in.fasta" << "-type=protein" << "-outfile=align_out.aln" << ">>" << "align_log.txt";   
-    QProcess *myProcess = new QProcess();
-    myProcess->start(program, arguments);
-    bool flWait = myProcess->waitForFinished(-1);
-    //if (myProcess->exitStatus() == QProcess::CrashExit)
-    //{
-    //  int g = 3;
-    //  g++;
-    //}
-    //myProcess->close();
+  QString program = "clustalw2";
+  QStringList arguments;
 
-    QFile fFastaOut("align_out.aln");
-    fFastaOut.open(QIODevice::ReadOnly | QIODevice::Text);
-    QTextStream streamFastaOut(&fFastaOut);
-    ptEditAlign->setPlainText(streamFastaOut.readAll());
-    fFastaOut.close();
+  /*    arguments << "-infile=align_in.fasta" <<
+               "-outfile=align_out.aln" <<
+               "-align" <<
+               "-type=protein" <<
+               "-ktuple=1" <<
+               "-window=5" <<
+               "-score=percent" <<
+               "-topdiags=5" <<
+               "-pairgap=3" <<
+               "-pwmatrix=gonnet" <<
+               "-pwdnamatrix=iub" <<
+               "-pwgapopen=10" <<
+               "-pwgapext=0.1" <<
+               "-matrix=gonnet" <<
+               "-dnamatrix=iub" <<
+               "-gapopen=10" <<
+               "-gapext=0.2" <<
+               "-gapdist=5" <<
+               "-iteration=none" <<
+               "-numiter=1" <<
+               "-clustering=NJ" <<
+               "-seqnos=on" <<
+               "-outorder=aligned" <<
+               ">>" <<
+               "align_log.txt"; */  
+  arguments << "-align" << "-infile=align_in.fasta" << "-type=protein" << "-outfile=align_out.aln" ;//<< ">>" << "align_log.txt"; 
+  QProcess *myProcess = new QProcess();
+  myProcess->start(program, arguments);
+  myProcess->waitForStarted();
+  myProcess->waitForFinished();
+  myProcess->waitForReadyRead();    
 
-  //QFile fFastaIn("align_in.fasta");
-  //fFastaIn.open(QIODevice::WriteOnly | QIODevice::Text);
-  //QTextStream streamFastaIn(&fFastaIn);
-  //streamFastaIn << ptEditFasta->toPlainText();
-  //QString s = ptEditFasta->toPlainText();
-  //fFastaIn.close();
+  QFile fLog("align_log.txt");
+  fLog.open(QIODevice::WriteOnly | QIODevice::Text);
+  QTextStream streamLog(&fLog);
+  streamLog << myProcess->readAll();
+  fLog.close();
 
-  //QString program = "clustalw2.exe";
-  //QStringList arguments;
-  //arguments << "-align" << "-infile=align_in.fasta" << "-type=protein" << "-outfile=Data_Align/a_" + sAlignFile +".txt";
-  //QProcess *myProcess = new QProcess();
-  //myProcess->start(program, arguments);
-  //myProcess->close();
-
-  //QFile fFastaOut("align_in.aln");
-  //fFastaOut.open(QIODevice::ReadOnly | QIODevice::Text);
-  //QTextStream streamFastaOut(&fFastaOut);
-  //ptEditAlign->setPlainText(streamFastaOut.readAll());
-  //fFastaOut.close();
+  QFile fFastaOut("align_out.aln");
+  fFastaOut.open(QIODevice::ReadOnly | QIODevice::Text);
+  QTextStream streamFastaOut(&fFastaOut);
+  ptEditAlign->setPlainText(streamFastaOut.readAll());
+  fFastaOut.close();
 }
 void TabAlignment::setAlign()
 {

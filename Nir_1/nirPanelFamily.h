@@ -20,6 +20,7 @@ public:
   FamilyButton(int idFam, QString s, QString sColL, QString sColG, QWidget *parent = 0);
 
   void changeStateGrey();
+  void changeStateLight();
   int           id;
 
 //private:
@@ -58,6 +59,7 @@ public:
   QVector<FamilyButton*> vbFamily;
   QVector<int>           vnProt;    // vector of nubmers of proteins in each family
 
+  void changeFamilyId(int id);
 private:
   QString                sfFamily;
   int                    idFamCurr; // id of current family;
@@ -67,6 +69,7 @@ private:
   int                    iLayoutDir; // This type is used to determine the direction of a box layout.
   bool                   bMultiPush; // 0 - single Push; 1 - multiPush
 
+  
 
 signals:
   void setFamily(int idFam, int nProt);
